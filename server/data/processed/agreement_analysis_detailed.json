@@ -1,0 +1,569 @@
+{
+  "total_chunks_with_valid_annotations": 1099,
+  "skipped_chunks": 0,
+  "fleiss_kappa": 0.5845,
+  "fleiss_kappa_interpretation": "moderate",
+  "fleiss_kappa_headline_rater_count": 3,
+  "fleiss_kappa_by_rater_count": {
+    "2": {
+      "n_chunks": 4,
+      "kappa": -0.0909,
+      "interpretation": "poor (worse than chance)"
+    },
+    "3": {
+      "n_chunks": 1095,
+      "kappa": 0.5845,
+      "interpretation": "moderate"
+    }
+  },
+  "rater_count_breakdown": {
+    "3": 1095,
+    "2": 4
+  },
+  "votes_recovered_from_truncated_json": 27,
+  "overall_pairwise_agreement_percent": 66.7,
+  "annotator_combo_breakdown": {
+    "gptoss120b+gptoss20b+qwen27b": {
+      "count": 344,
+      "full_agreement": 250,
+      "full_agreement_rate": 0.727
+    },
+    "allam7b+gptoss_safeguard20b+qwen27b": {
+      "count": 406,
+      "full_agreement": 168,
+      "full_agreement_rate": 0.414
+    },
+    "allam7b+qwen27b": {
+      "count": 4,
+      "full_agreement": 1,
+      "full_agreement_rate": 0.25
+    },
+    "allam7b+gptoss20b+gptoss_safeguard20b": {
+      "count": 98,
+      "full_agreement": 54,
+      "full_agreement_rate": 0.551
+    },
+    "allam7b+gptoss120b+gptoss20b": {
+      "count": 247,
+      "full_agreement": 111,
+      "full_agreement_rate": 0.449
+    }
+  },
+  "per_category_agreement": {
+    "Ghosts and Spirits": {
+      "total": 141,
+      "full_agreement": 87,
+      "full_agreement_rate": 0.617
+    },
+    "Legendary Creatures": {
+      "total": 296,
+      "full_agreement": 192,
+      "full_agreement_rate": 0.649
+    },
+    "Deities and Mythological Figures": {
+      "total": 109,
+      "full_agreement": 39,
+      "full_agreement_rate": 0.358
+    },
+    "Legendary and Historical Figures": {
+      "total": 212,
+      "full_agreement": 126,
+      "full_agreement_rate": 0.594
+    },
+    "Place-Based Legends": {
+      "total": 34,
+      "full_agreement": 1,
+      "full_agreement_rate": 0.029
+    },
+    "Fairy Tales and Fables": {
+      "total": 171,
+      "full_agreement": 91,
+      "full_agreement_rate": 0.532
+    },
+    "Cultural Superstitions and Practices": {
+      "total": 136,
+      "full_agreement": 48,
+      "full_agreement_rate": 0.353
+    }
+  },
+  "top_disagreement_category_pairs": [
+    {
+      "pair": "Legendary Creatures vs Legendary and Historical Figures",
+      "count": 90
+    },
+    {
+      "pair": "Cultural Superstitions and Practices vs Legendary Creatures",
+      "count": 70
+    },
+    {
+      "pair": "Ghosts and Spirits vs Legendary Creatures",
+      "count": 67
+    },
+    {
+      "pair": "Fairy Tales and Fables vs Legendary Creatures",
+      "count": 60
+    },
+    {
+      "pair": "Deities and Mythological Figures vs Legendary Creatures",
+      "count": 54
+    },
+    {
+      "pair": "Fairy Tales and Fables vs Legendary and Historical Figures",
+      "count": 47
+    },
+    {
+      "pair": "Cultural Superstitions and Practices vs Ghosts and Spirits",
+      "count": 38
+    },
+    {
+      "pair": "Cultural Superstitions and Practices vs Legendary and Historical Figures",
+      "count": 38
+    },
+    {
+      "pair": "Deities and Mythological Figures vs Legendary and Historical Figures",
+      "count": 26
+    },
+    {
+      "pair": "Legendary Creatures vs Place-Based Legends",
+      "count": 22
+    },
+    {
+      "pair": "Legendary and Historical Figures vs Place-Based Legends",
+      "count": 21
+    },
+    {
+      "pair": "Deities and Mythological Figures vs Ghosts and Spirits",
+      "count": 12
+    },
+    {
+      "pair": "Cultural Superstitions and Practices vs Deities and Mythological Figures",
+      "count": 11
+    },
+    {
+      "pair": "Ghosts and Spirits vs Place-Based Legends",
+      "count": 10
+    },
+    {
+      "pair": "Cultural Superstitions and Practices vs Place-Based Legends",
+      "count": 10
+    }
+  ],
+  "disagreement_examples_by_pair": {
+    "Legendary Creatures vs Legendary and Historical Figures": [
+      {
+        "chunk_id": "japan_1934",
+        "country": "japan",
+        "article_title": "Kurozuka",
+        "votes": {
+          "gptoss120b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.93,
+            "reasoning": "The text analyzes the legend of the onibaba, a mythic creature, fitting the Legendary Creatures category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.95,
+            "reasoning": "The passage discusses a legend about the origin of the onibaba, a mythical creature.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.95,
+            "reasoning": "The passage analyzes the historical plausibility and origins of a legend concerning a specific named figure, Iwate, and her association with the onibaba.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_597",
+        "country": "japan",
+        "article_title": "Ibaraki-dōji",
+        "votes": {
+          "gptoss120b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.92,
+            "reasoning": "The passage centers on Ibaraki-dōji, an oni, which is a legendary creature in folklore.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.98,
+            "reasoning": "The passage describes Ibaraki-dōji, a classic Japanese oni, which is a legendary creature.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.95,
+            "reasoning": "The passage centers on the famous historical warrior Watanabe no Tsuna and his legendary encounter with the demon Ibaraki-dōji, a classic tale in Japanese folklore involving a real historical figure.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ],
+    "Cultural Superstitions and Practices vs Legendary Creatures": [
+      {
+        "chunk_id": "japan_930",
+        "country": "japan",
+        "article_title": "Nurikabe",
+        "votes": {
+          "gptoss120b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.86,
+            "reasoning": "The passage centers on the tanuki, a mythic animal, and its associated folkloric phenomenon.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Cultural Superstitions and Practices",
+            "confidence": 0.95,
+            "reasoning": "The passage focuses on a folk superstition about tanuki and weasel creating a blind wall and how to counter it.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Cultural Superstitions and Practices",
+            "confidence": 0.95,
+            "reasoning": "The passage explicitly describes a local superstition involving a specific ritual (smoking tobacco) to defeat a supernatural phenomenon attributed to an animal.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_457",
+        "country": "japan",
+        "article_title": "Aosaginohi",
+        "votes": {
+          "gptoss120b": {
+            "category": "Ghosts and Spirits",
+            "confidence": 0.93,
+            "reasoning": "The text describes a will-o'-the-wisp type supernatural light phenomenon, fitting the Ghosts and Spirits category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Cultural Superstitions and Practices",
+            "confidence": 0.85,
+            "reasoning": "The passage describes a folklore phenomenon (a will‑o‑the‑wisp) that people believed was a glowing heron, a typical cultural superstition.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.95,
+            "reasoning": "The passage describes the 'blue heron fire' as a yōkai phenomenon and a specific creature-like entity (glowing heron) featured in yōkai compendiums.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ],
+    "Ghosts and Spirits vs Legendary Creatures": [
+      {
+        "chunk_id": "japan_1135",
+        "country": "japan",
+        "article_title": "Ubume",
+        "votes": {
+          "gptoss120b": {
+            "category": "Ghosts and Spirits",
+            "confidence": 0.93,
+            "reasoning": "The passage describes ubume, a ghostly yōkai associated with death and childbirth, fitting the Ghosts and Spirits category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Ghosts and Spirits",
+            "confidence": 0.95,
+            "reasoning": "The passage centers on the ubume, a Japanese yōkai that is a ghostly spirit of a woman who died in childbirth.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.95,
+            "reasoning": "The passage describes the ubume, a specific type of Japanese yōkai or supernatural creature, and compares it to other mythical monsters like the Harpy and Pontianak.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_1220",
+        "country": "japan",
+        "article_title": "Yuki-onna",
+        "votes": {
+          "gptoss120b": {
+            "category": "Ghosts and Spirits",
+            "confidence": 0.97,
+            "reasoning": "The text describes Yuki-onna as a yūrei/yōkai, a supernatural ghost-like figure in folklore.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Ghosts and Spirits",
+            "confidence": 0.98,
+            "reasoning": "Yuki-onna is described as a yūrei or yōkai, a type of spirit or ghost in Japanese folklore.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary Creatures",
+            "confidence": 1,
+            "reasoning": "The passage describes the Yuki-onna, a supernatural entity classified as a yōkai or yūrei in Japanese folklore, which fits the definition of a legendary creature.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ],
+    "Fairy Tales and Fables vs Legendary Creatures": [
+      {
+        "chunk_id": "japan_1740",
+        "country": "japan",
+        "article_title": "Gon, the Little Fox",
+        "votes": {
+          "gptoss120b": {
+            "category": "Fairy Tales and Fables",
+            "confidence": 0.86,
+            "reasoning": "The passage discusses a Japanese folk tale about a fox, fitting the Fairy Tales and Fables category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.98,
+            "reasoning": "The passage describes a folklore tale centered on a fox, a classic legendary creature in Japanese myth.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Fairy Tales and Fables",
+            "confidence": 0.95,
+            "reasoning": "The passage discusses 'Gon, The Fox' (Gongitsune), a classic Japanese folktale featuring an anthropomorphic animal protagonist, which fits the definition of a fairy tale or fable.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_1945",
+        "country": "japan",
+        "article_title": "Kurozuka",
+        "votes": {
+          "gptoss120b": {
+            "category": "Fairy Tales and Fables",
+            "confidence": 0.96,
+            "reasoning": "The passage discusses an old Buddhist fable and its folkloric character, fitting the Fairy Tales and Fables category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Fairy Tales and Fables",
+            "confidence": 0.95,
+            "reasoning": "The passage describes a Buddhist fable involving a mask and moral lesson, fitting the fairy tale/fable category.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.95,
+            "reasoning": "The passage describes the Onibaba, a supernatural entity from folklore, its origin in a fable, and its modern depiction as a mascot, fitting the definition of a legendary creature.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ],
+    "Deities and Mythological Figures vs Legendary Creatures": [
+      {
+        "chunk_id": "japan_1202",
+        "country": "japan",
+        "article_title": "Yamabiko (folklore)",
+        "votes": {
+          "gptoss120b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.86,
+            "reasoning": "The passage describes Yamabiko as a yōkai creature with physical traits, fitting the legendary creature category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Deities and Mythological Figures",
+            "confidence": 0.95,
+            "reasoning": "Yamabiko is described as a mountain god and spirit, fitting the definition of a mythological deity.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.95,
+            "reasoning": "The passage describes the Yamabiko as a specific yōkai (supernatural creature) with physical traits and behaviors, fitting the definition of a legendary creature rather than a deity or general spirit.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_205",
+        "country": "japan",
+        "article_title": "Black Turtle-Snake",
+        "votes": {
+          "gptoss120b": {
+            "category": "Deities and Mythological Figures",
+            "confidence": 0.92,
+            "reasoning": "The passage centers on the legend of Xuanwu, a mythological deity, and related symbolic creatures.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.92,
+            "reasoning": "The passage centers on the mythic Black Turtle‑Snake, a legendary creature in Chinese folklore.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Deities and Mythological Figures",
+            "confidence": 0.95,
+            "reasoning": "The passage describes Xuanwu (Black Turtle-Snake), a mythological deity and one of the Four Symbols in Chinese cosmology, along with its spiritual attributes and cultural significance.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ],
+    "Fairy Tales and Fables vs Legendary and Historical Figures": [
+      {
+        "chunk_id": "japan_1838",
+        "country": "japan",
+        "article_title": "Jiraiya",
+        "votes": {
+          "gptoss120b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.92,
+            "reasoning": "The passage recounts the deeds of folkloric heroes Jiraiya and Tsunade, who are legendary human figures with magical abilities.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Fairy Tales and Fables",
+            "confidence": 0.8,
+            "reasoning": "The passage presents a fictional narrative with magical elements and a moral lesson typical of fairy tales.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.95,
+            "reasoning": "The passage narrates the biographical legend of Jiraiya, a famous historical figure in Japanese folklore, detailing his life, marriage, and association with other legendary characters.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_1890",
+        "country": "japan",
+        "article_title": "Kintarō",
+        "votes": {
+          "gptoss120b": {
+            "category": "Fairy Tales and Fables",
+            "confidence": 0.96,
+            "reasoning": "The passage discusses Kintarō, a character from Japanese folk tales and fairy stories.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.9,
+            "reasoning": "Kintarō is a legendary folk hero, not a creature or deity, fitting the Legendary and Historical Figures category.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.95,
+            "reasoning": "The passage discusses Kintarō, a famous figure from Japanese folklore and history, and lists his appearances in modern media such as video games and comics.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ],
+    "Cultural Superstitions and Practices vs Ghosts and Spirits": [
+      {
+        "chunk_id": "japan_457",
+        "country": "japan",
+        "article_title": "Aosaginohi",
+        "votes": {
+          "gptoss120b": {
+            "category": "Ghosts and Spirits",
+            "confidence": 0.93,
+            "reasoning": "The text describes a will-o'-the-wisp type supernatural light phenomenon, fitting the Ghosts and Spirits category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Cultural Superstitions and Practices",
+            "confidence": 0.85,
+            "reasoning": "The passage describes a folklore phenomenon (a will‑o‑the‑wisp) that people believed was a glowing heron, a typical cultural superstition.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.95,
+            "reasoning": "The passage describes the 'blue heron fire' as a yōkai phenomenon and a specific creature-like entity (glowing heron) featured in yōkai compendiums.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_1415",
+        "country": "japan",
+        "article_title": "Tsukumogami",
+        "votes": {
+          "gptoss120b": {
+            "category": "Ghosts and Spirits",
+            "confidence": 0.92,
+            "reasoning": "The text describes tsukumogami as animated household objects with souls, fitting the Ghosts and Spirits category.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Cultural Superstitions and Practices",
+            "confidence": 0.92,
+            "reasoning": "The passage describes the folklore belief that household objects become animate spirits after a century, a superstition rather than a specific ghost story.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary Creatures",
+            "confidence": 0.95,
+            "reasoning": "The passage defines tsukumogami as animate household objects that acquire souls, which classifies them as supernatural beings or creatures in folklore.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ],
+    "Cultural Superstitions and Practices vs Legendary and Historical Figures": [
+      {
+        "chunk_id": "japan_1099",
+        "country": "japan",
+        "article_title": "Tsuchigumo",
+        "votes": {
+          "gptoss120b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.86,
+            "reasoning": "The text treats Tsuchigumo as specific historical chieftains and priests rather than mythic beings.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Cultural Superstitions and Practices",
+            "confidence": 0.8,
+            "reasoning": "The passage focuses on shamanistic rituals and the use of the term Tsuchigumo in cultural practices rather than describing a creature or deity.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.95,
+            "reasoning": "The passage analyzes the historical and social identity of specific individuals (chieftains, priests) associated with the term Tsuchigumo, rather than describing supernatural events or general folklore.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      },
+      {
+        "chunk_id": "japan_1953",
+        "country": "japan",
+        "article_title": "Maneki-neko",
+        "votes": {
+          "gptoss120b": {
+            "category": "Legendary and Historical Figures",
+            "confidence": 0.78,
+            "reasoning": "The passage recounts folklore involving historical persons like Ii Naotaka and Ōta Dōkan linked to the origin of maneki-neko.",
+            "recovered_from_truncated_json": false
+          },
+          "gptoss20b": {
+            "category": "Cultural Superstitions and Practices",
+            "confidence": 0.95,
+            "reasoning": "The passage explains the folklore origin of the maneki‑neko, a lucky cat symbol, which is a cultural superstition.",
+            "recovered_from_truncated_json": false
+          },
+          "qwen27b": {
+            "category": "Place-Based Legends",
+            "confidence": 0.95,
+            "reasoning": "The text focuses on specific locations (Gōtoku-ji, Jishōin Shrine) and the local folklore explaining the origin of the maneki-neko associated with those sites.",
+            "recovered_from_truncated_json": false
+          }
+        }
+      }
+    ]
+  }
+}

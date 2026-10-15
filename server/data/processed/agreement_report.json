@@ -1,0 +1,29 @@
+{
+  "total_chunks_processed": 1099,
+  "total_gold_labels": 1099,
+  "excluded_insufficient": 0,
+  "agreement_breakdown": {
+    "full_agreement": 617,
+    "majority": 408,
+    "full_2of2": 0,
+    "tiebreak_by_confidence": 74,
+    "insufficient": 0
+  },
+  "pairwise_agreement_percent": 68.03,
+  "category_distribution": {
+    "Ghosts and Spirits": 139,
+    "Cultural Superstitions and Practices": 130,
+    "Legendary Creatures": 300,
+    "Legendary and Historical Figures": 224,
+    "Deities and Mythological Figures": 105,
+    "Fairy Tales and Fables": 175,
+    "Place-Based Legends": 26
+  },
+  "country_distribution": {
+    "japan": 531,
+    "china": 193,
+    "india": 202,
+    "philippines": 87,
+    "indonesia": 86
+  }
+}

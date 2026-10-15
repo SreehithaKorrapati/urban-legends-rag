@@ -1,0 +1,602 @@
+[
+  {
+    "question": "In which 1994 animated film produced by Studio Ghibli does the character Kuchisake-onna appear?",
+    "expected_chunk_id": "japan_73",
+    "expected_country": "japan",
+    "expected_article_title": "Kuchisake-onna"
+  },
+  {
+    "question": "What specific condition was a kappa made to swear to after being captured by a Shibue family ancestor at Shiomi-jinja?",
+    "expected_chunk_id": "japan_684",
+    "expected_country": "japan",
+    "expected_article_title": "Kappa (folklore)"
+  },
+  {
+    "question": "What physical symptoms occur when a person is touched by the breath of an Ōkubi?",
+    "expected_chunk_id": "japan_945",
+    "expected_country": "japan",
+    "expected_article_title": "Ōkubi"
+  },
+  {
+    "question": "Where were the two oldest recorded appearances of the ningyo after the Asuka Period located?",
+    "expected_chunk_id": "japan_859",
+    "expected_country": "japan",
+    "expected_article_title": "Ningyo"
+  },
+  {
+    "question": "How did the deity Inari assist the swordsmith Sanjō Munechika in forging the blade Kogitsune-maru?",
+    "expected_chunk_id": "japan_738",
+    "expected_country": "japan",
+    "expected_article_title": "Kitsune"
+  },
+  {
+    "question": "What is the reported height range of the Japanese cryptid known as Chīsai-ojisan?",
+    "expected_chunk_id": "japan_22",
+    "expected_country": "japan",
+    "expected_article_title": "Chīsai-ojisan"
+  },
+  {
+    "question": "How does the Teke Teke ghost move around and what sound does she make?",
+    "expected_chunk_id": "japan_14",
+    "expected_country": "japan",
+    "expected_article_title": "Japanese urban legends"
+  },
+  {
+    "question": "What are the alternative folkloric theories regarding the origin of the term \"mata\" in nekomata besides the idea of having two tails?",
+    "expected_chunk_id": "japan_846",
+    "expected_country": "japan",
+    "expected_article_title": "Nekomata"
+  },
+  {
+    "question": "When did the modern concept of the jinmenken legend first spread across Japan?",
+    "expected_chunk_id": "japan_7",
+    "expected_country": "japan",
+    "expected_article_title": "Japanese urban legends"
+  },
+  {
+    "question": "Who is the author of the 1989 Japanese ghost story collection published by Kawade Shobo Shinsha?",
+    "expected_chunk_id": "japan_20",
+    "expected_country": "japan",
+    "expected_article_title": "Aka Manto"
+  },
+  {
+    "question": "What happened to the mosquito nets of the man who hid at home to avoid the amikiri in Norio Yamada's story?",
+    "expected_chunk_id": "japan_450",
+    "expected_country": "japan",
+    "expected_article_title": "Amikiri"
+  },
+  {
+    "question": "How were the Chishinap-kamui puppets originally created by the god Okikurumi to fight the smallpox divinity?",
+    "expected_chunk_id": "japan_808",
+    "expected_country": "japan",
+    "expected_article_title": "Mintuci"
+  },
+  {
+    "question": "What methods did people in medieval Japan use to try to appease or please the smallpox demon?",
+    "expected_chunk_id": "japan_348",
+    "expected_country": "japan",
+    "expected_article_title": "Smallpox demon"
+  },
+  {
+    "question": "What is the name of the Egyptian-themed Dōsojin boss character in the twentieth game of the Touhou Project series?",
+    "expected_chunk_id": "japan_528",
+    "expected_country": "japan",
+    "expected_article_title": "Dōsojin"
+  },
+  {
+    "question": "What is the name of the website listed as an external link for information about Tesso?",
+    "expected_chunk_id": "japan_377",
+    "expected_country": "japan",
+    "expected_article_title": "Tesso"
+  },
+  {
+    "question": "How large were the nekomata described in the 1809 text \"Gūisō\" that was holding a dog in its mouth?",
+    "expected_chunk_id": "japan_843",
+    "expected_country": "japan",
+    "expected_article_title": "Nekomata"
+  },
+  {
+    "question": "What physical signs and atmospheric phenomena typically indicate the arrival of a kasha during a funeral procession?",
+    "expected_chunk_id": "japan_706",
+    "expected_country": "japan",
+    "expected_article_title": "Kasha (folklore)"
+  },
+  {
+    "question": "What is the supposed effect on a person who reads or hears the full \"Cow Head\" story?",
+    "expected_chunk_id": "japan_5",
+    "expected_country": "japan",
+    "expected_article_title": "Japanese urban legends"
+  },
+  {
+    "question": "How did the 1712 Japanese work Wakan sansai zue alter the depiction of the Chinese \"hill-fish\" to align it with the Japanese ningyo?",
+    "expected_chunk_id": "japan_854",
+    "expected_country": "japan",
+    "expected_article_title": "Ningyo"
+  },
+  {
+    "question": "How were unwanted fox spirit possessions traditionally exorcized in Japan?",
+    "expected_chunk_id": "japan_733",
+    "expected_country": "japan",
+    "expected_article_title": "Kitsune"
+  },
+  {
+    "question": "How is the figure of Mianran Dashi connected to the Lotus Sutra and the concept of the hungry ghost realm?",
+    "expected_chunk_id": "china_2437",
+    "expected_country": "china",
+    "expected_article_title": "Ulkāmukha Pretarāja"
+  },
+  {
+    "question": "What is the earliest known reference to the mythical \"Wild Women\" of Rinan, and how are they described in that text?",
+    "expected_chunk_id": "china_2498",
+    "expected_country": "china",
+    "expected_article_title": "Bowuzhi"
+  },
+  {
+    "question": "How did the height of the heavens, the thickness of the earth, and the stature of Pangu change each day during the eighteen thousand years of cosmic formation?",
+    "expected_chunk_id": "china_2526",
+    "expected_country": "china",
+    "expected_article_title": "Chinese creation myths"
+  },
+  {
+    "question": "Why are the Chinese considered unique among ancient and modern peoples regarding their creation myths?",
+    "expected_chunk_id": "china_2530",
+    "expected_country": "china",
+    "expected_article_title": "Chinese creation myths"
+  },
+  {
+    "question": "According to Wolfram Eberhard, what real-world animal does the \"hairy calf\" (maodu) mentioned in the text likely allude to?",
+    "expected_chunk_id": "china_3024",
+    "expected_country": "china",
+    "expected_article_title": "Yinglong"
+  },
+  {
+    "question": "What types of subject matter are included in the compendium written by Zhang Hua?",
+    "expected_chunk_id": "china_2486",
+    "expected_country": "china",
+    "expected_article_title": "Bowuzhi"
+  },
+  {
+    "question": "What physical characteristics and behavioral traits does the book Bowu Zhi attribute to the creature known as the Yenü?",
+    "expected_chunk_id": "china_2500",
+    "expected_country": "china",
+    "expected_article_title": "Bowuzhi"
+  },
+  {
+    "question": "What specific criticism did Emperor Wu level against Zhang Hua's work, the Bowu zhi, regarding its content and style?",
+    "expected_chunk_id": "china_2495",
+    "expected_country": "china",
+    "expected_article_title": "Bowuzhi"
+  },
+  {
+    "question": "What archaeological evidence from the Sanxingdui and Jinsha sites suggests about the cultural role of Cancong in ancient Shu civilization?",
+    "expected_chunk_id": "china_2512",
+    "expected_country": "china",
+    "expected_article_title": "Cancong"
+  },
+  {
+    "question": "What is the Western name for the Chinese legend of Wang Baochuan and Xue Pinggui, and who adapted it for the British stage?",
+    "expected_chunk_id": "china_2448",
+    "expected_country": "china",
+    "expected_article_title": "Xue Pinggui and Wang Baochuan"
+  },
+  {
+    "question": "What object was discovered inside the body of a Yepo after it was killed and dissected?",
+    "expected_chunk_id": "china_2499",
+    "expected_country": "china",
+    "expected_article_title": "Bowuzhi"
+  },
+  {
+    "question": "How did the body parts of the firstborn Pangu transform into natural elements like the sun, moon, and earth?",
+    "expected_chunk_id": "china_2527",
+    "expected_country": "china",
+    "expected_article_title": "Chinese creation myths"
+  },
+  {
+    "question": "What does the elderly farmer do to the wolf after the wolf crawls back into the bag?",
+    "expected_chunk_id": "china_2445",
+    "expected_country": "china",
+    "expected_article_title": "The Wolf of Zhongshan"
+  },
+  {
+    "question": "What argument does the wolf use to justify eating the scholar after he had previously saved its life?",
+    "expected_chunk_id": "china_2444",
+    "expected_country": "china",
+    "expected_article_title": "The Wolf of Zhongshan"
+  },
+  {
+    "question": "What were the actual sources of the alleged physical evidence, such as bodies, hairs, and footprints, that were once attributed to the yeren?",
+    "expected_chunk_id": "china_2465",
+    "expected_country": "china",
+    "expected_article_title": "Yeren"
+  },
+  {
+    "question": "What physical characteristics and abilities are attributed to the feifei in the text?",
+    "expected_chunk_id": "china_2458",
+    "expected_country": "china",
+    "expected_article_title": "Yeren"
+  },
+  {
+    "question": "How did the first king of the Shang dynasty handle the wind-propelled flying carriage brought by the Jigong people?",
+    "expected_chunk_id": "china_2503",
+    "expected_country": "china",
+    "expected_article_title": "Bowuzhi"
+  },
+  {
+    "question": "Why is the term \"cosmogonic myth\" considered more accurate than \"creation myth\" in the context of Chinese mythology?",
+    "expected_chunk_id": "china_2513",
+    "expected_country": "china",
+    "expected_article_title": "Chinese creation myths"
+  },
+  {
+    "question": "What specific sequence of physical punishments comprised the \"Five Pains\" method used to execute Li Si?",
+    "expected_chunk_id": "china_2475",
+    "expected_country": "china",
+    "expected_article_title": "Zhao Gao"
+  },
+  {
+    "question": "Which specific places in modern China use the Hétú as part of their proper names?",
+    "expected_chunk_id": "china_2455",
+    "expected_country": "china",
+    "expected_article_title": "Yellow River Map"
+  },
+  {
+    "question": "In which seminal work does folklorist Stith Thompson note that the tale of a boy predestined to marry a princess appears in the literary history of India?",
+    "expected_chunk_id": "india_3419",
+    "expected_country": "india",
+    "expected_article_title": "The King Who Would Be Stronger Than Fate"
+  },
+  {
+    "question": "Why did the gods Indra, Agni, Varuna, and Yama decide to attend Damayanti's svayamvara?",
+    "expected_chunk_id": "india_3867",
+    "expected_country": "india",
+    "expected_article_title": "Nala and Damayanti"
+  },
+  {
+    "question": "What additional moral did Latin sources emphasize regarding the dog being taken in by its own reflection?",
+    "expected_chunk_id": "india_3177",
+    "expected_country": "india",
+    "expected_article_title": "The Dog and Its Reflection"
+  },
+  {
+    "question": "What materials are used to create the traditional wall paintings in Punjab, and what occasions are they typically drawn to celebrate?",
+    "expected_chunk_id": "india_3134",
+    "expected_country": "india",
+    "expected_article_title": "Chowk poorana"
+  },
+  {
+    "question": "What is the general moral teaching of the fable \"The Ass and the Pig\"?",
+    "expected_chunk_id": "india_3042",
+    "expected_country": "india",
+    "expected_article_title": "The Ass and the Pig"
+  },
+  {
+    "question": "What was the punishment ordered by Rani Pingalah for Pattinathar, and what happened when it was carried out?",
+    "expected_chunk_id": "india_3080",
+    "expected_country": "india",
+    "expected_article_title": "Bharthari (king)"
+  },
+  {
+    "question": "Who was the younger brother of the King of Ujjain who abdicated in his favor?",
+    "expected_chunk_id": "india_3078",
+    "expected_country": "india",
+    "expected_article_title": "Bharthari (king)"
+  },
+  {
+    "question": "How many wars are narrated in total in the poem about the brothers Alha and Udal?",
+    "expected_chunk_id": "india_3039",
+    "expected_country": "india",
+    "expected_article_title": "Alha-Khand"
+  },
+  {
+    "question": "In the La Fontaine version of the fable, what specific action does the bear take to remove a fly that results in the gardener's death?",
+    "expected_chunk_id": "india_3070",
+    "expected_country": "india",
+    "expected_article_title": "The Bear and the Gardener"
+  },
+  {
+    "question": "Who were the scholars that refuted the idea that the legend of Barlaam and Josaphat originated from Byzantine Greek?",
+    "expected_chunk_id": "india_3058",
+    "expected_country": "india",
+    "expected_article_title": "Barlaam and Josaphat"
+  },
+  {
+    "question": "When was the Hungarian translation of the Golden Legend in the Kazincy codex created?",
+    "expected_chunk_id": "india_3067",
+    "expected_country": "india",
+    "expected_article_title": "Barlaam and Josaphat"
+  },
+  {
+    "question": "What is the moral of the parable of the blind men and an elephant?",
+    "expected_chunk_id": "india_3084",
+    "expected_country": "india",
+    "expected_article_title": "Blind men and an elephant"
+  },
+  {
+    "question": "What arguments do George Ratcliffe Woodward and Harold Mattingly present to support the attribution of the anonymous Greek text to John of Damascus?",
+    "expected_chunk_id": "india_3062",
+    "expected_country": "india",
+    "expected_article_title": "Barlaam and Josaphat"
+  },
+  {
+    "question": "Who is the Hindu folk deity Baba Shivo regarded as an avatar of?",
+    "expected_chunk_id": "india_3053",
+    "expected_country": "india",
+    "expected_article_title": "Baba Shivo"
+  },
+  {
+    "question": "How many versions of the Panchatantra exist in languages around the world?",
+    "expected_chunk_id": "india_3543",
+    "expected_country": "india",
+    "expected_article_title": "Panchatantra"
+  },
+  {
+    "question": "How do different versions of the blind men and the elephant parable resolve the conflict between the men?",
+    "expected_chunk_id": "india_3087",
+    "expected_country": "india",
+    "expected_article_title": "Blind men and an elephant"
+  },
+  {
+    "question": "What is the name of the rich trader who became smitten with Sohni after seeing her at her father's pottery shop in Gujrat?",
+    "expected_chunk_id": "india_3658",
+    "expected_country": "india",
+    "expected_article_title": "Sohni Mahiwal"
+  },
+  {
+    "question": "What mantra is used to invoke the yakshinis described in the Uddamareshvara Tantra?",
+    "expected_chunk_id": "india_3855",
+    "expected_country": "india",
+    "expected_article_title": "Yakshini"
+  },
+  {
+    "question": "How did the infant bodhisattva Temiya convince the charioteer to release him from the chariot destined for the charnel ground?",
+    "expected_chunk_id": "india_3468",
+    "expected_country": "india",
+    "expected_article_title": "Mahānipāta Jātaka"
+  },
+  {
+    "question": "Who is the author of the 2009 and 2006 editions of the Greek text of the Historia animae utilis de Barlaam et Ioasaph?",
+    "expected_chunk_id": "india_3064",
+    "expected_country": "india",
+    "expected_article_title": "Barlaam and Josaphat"
+  },
+  {
+    "question": "What types of offerings or shrines were made to deter buso from attacking humans?",
+    "expected_chunk_id": "philippines_4125",
+    "expected_country": "philippines",
+    "expected_article_title": "Buso (Philippine mythology)"
+  },
+  {
+    "question": "What is the specific term for a séance in which a shaman acts as a medium to communicate with dead ancestors and spirits?",
+    "expected_chunk_id": "philippines_4031",
+    "expected_country": "philippines",
+    "expected_article_title": "Anito"
+  },
+  {
+    "question": "What happens to the left-hand soul of a Bagobo person after death?",
+    "expected_chunk_id": "philippines_4010",
+    "expected_country": "philippines",
+    "expected_article_title": "Souls in Filipino cultures"
+  },
+  {
+    "question": "How many pages does the Tagalog-English Dictionary by Leo James English contain?",
+    "expected_chunk_id": "philippines_3986",
+    "expected_country": "philippines",
+    "expected_article_title": "Nuno sa punso"
+  },
+  {
+    "question": "What are some examples of reportedly haunted locations in the Philippines?",
+    "expected_chunk_id": "philippines_4011",
+    "expected_country": "philippines",
+    "expected_article_title": "Souls in Filipino cultures"
+  },
+  {
+    "question": "How did the Moon escape from the Minokawa according to the basic legend?",
+    "expected_chunk_id": "philippines_3979",
+    "expected_country": "philippines",
+    "expected_article_title": "Minokawa"
+  },
+  {
+    "question": "How many souls do the Ifugao and the Hanunoo Mangyan believe a person possesses, respectively?",
+    "expected_chunk_id": "philippines_3998",
+    "expected_country": "philippines",
+    "expected_article_title": "Souls in Filipino cultures"
+  },
+  {
+    "question": "What is the traditional omen associated with a visit from the Kumakatok?",
+    "expected_chunk_id": "philippines_3974",
+    "expected_country": "philippines",
+    "expected_article_title": "Kumakatok"
+  },
+  {
+    "question": "What is the etymological origin of the name Bakunawa and what does it literally mean?",
+    "expected_chunk_id": "philippines_3934",
+    "expected_country": "philippines",
+    "expected_article_title": "Bakunawa"
+  },
+  {
+    "question": "How was the Spanish soldier's claim of being transported from the Philippines to Mexico City in 1593 eventually verified?",
+    "expected_chunk_id": "philippines_3884",
+    "expected_country": "philippines",
+    "expected_article_title": "1593 transported soldier legend"
+  },
+  {
+    "question": "What are some traditional methods believed to counteract the tricks played by tikbalangs on travelers?",
+    "expected_chunk_id": "philippines_4015",
+    "expected_country": "philippines",
+    "expected_article_title": "Tikbalang"
+  },
+  {
+    "question": "How did the CIA utilize the aswang legend during the Huk Rebellion in the early 1950s?",
+    "expected_chunk_id": "philippines_3928",
+    "expected_country": "philippines",
+    "expected_article_title": "Aswang"
+  },
+  {
+    "question": "What was the specific method of attack used by the sixth creature, known as the silagan, against people wearing white clothing?",
+    "expected_chunk_id": "philippines_3914",
+    "expected_country": "philippines",
+    "expected_article_title": "Aswang"
+  },
+  {
+    "question": "How is the soul of the dead guided in Waray belief, and where do the souls eventually lead?",
+    "expected_chunk_id": "philippines_4007",
+    "expected_country": "philippines",
+    "expected_article_title": "Souls in Filipino cultures"
+  },
+  {
+    "question": "What are the two categories of dwende based on their color, and what is the specific term for those that live in anthills and termite mounds?",
+    "expected_chunk_id": "philippines_3959",
+    "expected_country": "philippines",
+    "expected_article_title": "Duende"
+  },
+  {
+    "question": "What two factors are cited as the possible sources of inspiration for aswang legends from a social anthropology perspective?",
+    "expected_chunk_id": "philippines_3925",
+    "expected_country": "philippines",
+    "expected_article_title": "Aswang"
+  },
+  {
+    "question": "What is the origin of the name for the principal setting in the 2026 DreamWorks Animation film Forgotten Island?",
+    "expected_chunk_id": "philippines_3896",
+    "expected_country": "philippines",
+    "expected_article_title": "Biringan"
+  },
+  {
+    "question": "What happens to a Tagbanwa soul if it dies seven times in the underworld and its subsequent insect reincarnation is killed?",
+    "expected_chunk_id": "philippines_4008",
+    "expected_country": "philippines",
+    "expected_article_title": "Souls in Filipino cultures"
+  },
+  {
+    "question": "What physical characteristics and behaviors distinguish witch aswangs from ordinary witches in Philippine folklore?",
+    "expected_chunk_id": "philippines_3918",
+    "expected_country": "philippines",
+    "expected_article_title": "Aswang"
+  },
+  {
+    "question": "What is the literal translation of the derogatory Tagalog expression \"Tigbalang ca mandin!\"?",
+    "expected_chunk_id": "philippines_4012",
+    "expected_country": "philippines",
+    "expected_article_title": "Tikbalang"
+  },
+  {
+    "question": "According to the legend, why was the Brebes River renamed the Pamali River?",
+    "expected_chunk_id": "indonesia_4570",
+    "expected_country": "indonesia",
+    "expected_article_title": "Ciung Wanara"
+  },
+  {
+    "question": "How does the youngest sister summon the magical goldfish to appear?",
+    "expected_chunk_id": "indonesia_4596",
+    "expected_country": "indonesia",
+    "expected_article_title": "Leungli"
+  },
+  {
+    "question": "What does the shaking or fading of a candle flame indicate to the assistant guarding it during a Babi Ngepet ritual?",
+    "expected_chunk_id": "indonesia_4418",
+    "expected_country": "indonesia",
+    "expected_article_title": "Babi ngepet"
+  },
+  {
+    "question": "How is Dewi Sri typically depicted in Javanese iconography?",
+    "expected_chunk_id": "indonesia_4281",
+    "expected_country": "indonesia",
+    "expected_article_title": "Dewi Sri"
+  },
+  {
+    "question": "How did the creation of the Batu Malin Kundang statue impact the popularity of Air Manis Beach?",
+    "expected_chunk_id": "indonesia_4528",
+    "expected_country": "indonesia",
+    "expected_article_title": "Malin Kundang"
+  },
+  {
+    "question": "What did Timun Mas throw from her last bag to defeat the giant?",
+    "expected_chunk_id": "indonesia_4559",
+    "expected_country": "indonesia",
+    "expected_article_title": "Timun Mas"
+  },
+  {
+    "question": "When was the first written reference to the Sangkuriang legend recorded?",
+    "expected_chunk_id": "indonesia_4533",
+    "expected_country": "indonesia",
+    "expected_article_title": "Sangkuriang"
+  },
+  {
+    "question": "What happened to the Giant King Dewata Cengkar after he was defeated by Aji Saka?",
+    "expected_chunk_id": "indonesia_4549",
+    "expected_country": "indonesia",
+    "expected_article_title": "Aji Saka"
+  },
+  {
+    "question": "What does the presence of 14th-century Thai and Vietnamese glazed ceramics at remote highland sites indicate about the structure of regional and extra-regional value chains?",
+    "expected_chunk_id": "indonesia_4257",
+    "expected_country": "indonesia",
+    "expected_article_title": "Hainuwele"
+  },
+  {
+    "question": "What is the origin of the Batu Malin Kundang rock formation and where is it located?",
+    "expected_chunk_id": "indonesia_4527",
+    "expected_country": "indonesia",
+    "expected_article_title": "Malin Kundang"
+  },
+  {
+    "question": "What are some traditional Indonesian art forms and performances inspired by the Panji tales?",
+    "expected_chunk_id": "indonesia_4367",
+    "expected_country": "indonesia",
+    "expected_article_title": "Panji tales"
+  },
+  {
+    "question": "Which 1995 science-fiction film features Jalaluddin Hassan portraying a historical warrior who receives a famous quote from a scientist from the future?",
+    "expected_chunk_id": "indonesia_4607",
+    "expected_country": "indonesia",
+    "expected_article_title": "Hang Tuah"
+  },
+  {
+    "question": "What are the celestial musicians in Buddhist mythology known for playing, and how are they depicted in ancient Indian art?",
+    "expected_chunk_id": "indonesia_4442",
+    "expected_country": "indonesia",
+    "expected_article_title": "Kinnara"
+  },
+  {
+    "question": "What punishment does the prime minister impose on Damarwulan after his sons attempt to kill him?",
+    "expected_chunk_id": "indonesia_4573",
+    "expected_country": "indonesia",
+    "expected_article_title": "Damarwulan"
+  },
+  {
+    "question": "What is the true identity of Kleting Kuning in the story of Prince Kusumayuda?",
+    "expected_chunk_id": "indonesia_4377",
+    "expected_country": "indonesia",
+    "expected_article_title": "Panji tales"
+  },
+  {
+    "question": "What is the plot of the Indonesian folktale \"King Iguana\"?",
+    "expected_chunk_id": "indonesia_4295",
+    "expected_country": "indonesia",
+    "expected_article_title": "King Iguana"
+  },
+  {
+    "question": "What is the definition of a tale type in folklore studies?",
+    "expected_chunk_id": "indonesia_4299",
+    "expected_country": "indonesia",
+    "expected_article_title": "King Iguana"
+  },
+  {
+    "question": "How did the god Batara Narada save Dewi Sekartaji from the King of Antah Berantah?",
+    "expected_chunk_id": "indonesia_4437",
+    "expected_country": "indonesia",
+    "expected_article_title": "Keong Emas"
+  },
+  {
+    "question": "What is the name of the multi-use stadium located in Bandung?",
+    "expected_chunk_id": "indonesia_4584",
+    "expected_country": "indonesia",
+    "expected_article_title": "Siliwangi"
+  },
+  {
+    "question": "What happened when Timun Mas spread cucumber seeds behind her while fleeing from the giant?",
+    "expected_chunk_id": "indonesia_4558",
+    "expected_country": "indonesia",
+    "expected_article_title": "Timun Mas"
+  }
+]

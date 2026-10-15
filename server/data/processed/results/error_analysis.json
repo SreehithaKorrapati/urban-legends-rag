@@ -1,0 +1,610 @@
+{
+  "model_file": "distilbert_results_run5.json",
+  "overall_accuracy": 0.6783625730994152,
+  "confusion_matrix": {
+    "Cultural Superstitions and Practices": {
+      "Legendary Creatures": 4,
+      "Cultural Superstitions and Practices": 11,
+      "Ghosts and Spirits": 3,
+      "Legendary and Historical Figures": 2
+    },
+    "Deities and Mythological Figures": {
+      "Deities and Mythological Figures": 8,
+      "Legendary and Historical Figures": 5,
+      "Legendary Creatures": 3,
+      "Ghosts and Spirits": 1
+    },
+    "Fairy Tales and Fables": {
+      "Fairy Tales and Fables": 20,
+      "Legendary Creatures": 2,
+      "Legendary and Historical Figures": 4,
+      "Cultural Superstitions and Practices": 1
+    },
+    "Ghosts and Spirits": {
+      "Ghosts and Spirits": 20,
+      "Legendary Creatures": 1,
+      "Cultural Superstitions and Practices": 1
+    },
+    "Legendary Creatures": {
+      "Legendary Creatures": 33,
+      "Deities and Mythological Figures": 1,
+      "Fairy Tales and Fables": 3,
+      "Legendary and Historical Figures": 3,
+      "Ghosts and Spirits": 3,
+      "Cultural Superstitions and Practices": 2
+    },
+    "Legendary and Historical Figures": {
+      "Legendary Creatures": 4,
+      "Legendary and Historical Figures": 24,
+      "Fairy Tales and Fables": 4,
+      "Ghosts and Spirits": 1,
+      "Deities and Mythological Figures": 1,
+      "Cultural Superstitions and Practices": 1
+    },
+    "Place-Based Legends": {
+      "Fairy Tales and Fables": 1,
+      "Deities and Mythological Figures": 2,
+      "Legendary and Historical Figures": 2
+    }
+  },
+  "top_confusion_pairs": [
+    {
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary and Historical Figures",
+      "count": 5
+    },
+    {
+      "true": "Legendary and Historical Figures",
+      "predicted": "Legendary Creatures",
+      "count": 4
+    },
+    {
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary and Historical Figures",
+      "count": 4
+    },
+    {
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary Creatures",
+      "count": 4
+    },
+    {
+      "true": "Legendary and Historical Figures",
+      "predicted": "Fairy Tales and Fables",
+      "count": 4
+    },
+    {
+      "true": "Legendary Creatures",
+      "predicted": "Fairy Tales and Fables",
+      "count": 3
+    },
+    {
+      "true": "Legendary Creatures",
+      "predicted": "Legendary and Historical Figures",
+      "count": 3
+    },
+    {
+      "true": "Legendary Creatures",
+      "predicted": "Ghosts and Spirits",
+      "count": 3
+    },
+    {
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Ghosts and Spirits",
+      "count": 3
+    },
+    {
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary Creatures",
+      "count": 3
+    },
+    {
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary Creatures",
+      "count": 2
+    },
+    {
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary and Historical Figures",
+      "count": 2
+    },
+    {
+      "true": "Legendary Creatures",
+      "predicted": "Cultural Superstitions and Practices",
+      "count": 2
+    },
+    {
+      "true": "Place-Based Legends",
+      "predicted": "Deities and Mythological Figures",
+      "count": 2
+    },
+    {
+      "true": "Place-Based Legends",
+      "predicted": "Legendary and Historical Figures",
+      "count": 2
+    },
+    {
+      "true": "Legendary Creatures",
+      "predicted": "Deities and Mythological Figures",
+      "count": 1
+    },
+    {
+      "true": "Legendary and Historical Figures",
+      "predicted": "Ghosts and Spirits",
+      "count": 1
+    },
+    {
+      "true": "Place-Based Legends",
+      "predicted": "Fairy Tales and Fables",
+      "count": 1
+    },
+    {
+      "true": "Ghosts and Spirits",
+      "predicted": "Legendary Creatures",
+      "count": 1
+    },
+    {
+      "true": "Fairy Tales and Fables",
+      "predicted": "Cultural Superstitions and Practices",
+      "count": 1
+    }
+  ],
+  "all_misclassified": [
+    {
+      "id": "china_2393",
+      "country": "china",
+      "article_title": "The Story of Afanti",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "The single-episode animated series *Avanti* was a tribute film produced by the Shanghai Animation Film Studio to celebrate the 30th anniversary of the founding of the People's Republic of China. Before filming, the creative team proposed the concept of \"derived from life but transcending it, drawing"
+    },
+    {
+      "id": "indonesia_4260",
+      "country": "indonesia",
+      "article_title": "Hainuwele",
+      "true": "Legendary Creatures",
+      "predicted": "Deities and Mythological Figures",
+      "text_snippet": "== See also ==\nCain and Abel\nHistorical ecology\nManí (Amazonian legend)\nPhosop\nUke Mochi (Japanese goddess)\n== References ==\n== Further reading ==\nDarlington, Beth The Myth of Hainuwele: Metamorphosis of a Maiden Goddess, Pacifica Graduate Institute, 1991\nEliade, Mircea.  Myth and Reality. 1963.\nJen"
+    },
+    {
+      "id": "china_2404",
+      "country": "china",
+      "article_title": "Ten Brothers",
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "6th Brother Ah Luk - Has a solid impenetrable head and is the smartest.\n7th Brother Ah Chi - Can grow in height.\n8th Brother Ah Ba - Capable of tunneling underground.\n9th Brother Ah Kow - Has a huge mouth that can blow wind and shout loudly.\n10th and Youngest Brother Ah Sup - Can cry a river; also c"
+    },
+    {
+      "id": "india_3711",
+      "country": "india",
+      "article_title": "The Tale of the Four Dervishes",
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "These stories were originally written in Persian by Amir Khusro as Qissa-ye Chahār Darvēsh.  It was initially translated by Mir Husain Ata Tehseen into Urdu as Nav Tarz-e-Murassaa (نو طرزِ مُرصّع, \"New Ornate Style\") but the language was a highly literate one and was not understood well enough by ge"
+    },
+    {
+      "id": "indonesia_4278",
+      "country": "indonesia",
+      "article_title": "Dewi Sri",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "As he was crying, three teardrops fell to the ground. Miraculously, after touching the ground, the teardrops became three beautiful shining eggs that looked like jewels or pearls. Batara Narada advised him to offer these \"jewels\" to the Batara Guru, hoping that the gift would appease him and he woul"
+    },
+    {
+      "id": "japan_374",
+      "country": "japan",
+      "article_title": "Tesso",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "Furthermore, stories in which not just metal rats (tesso), but also rats in general cause harm to people can be found in the Tōhoku region, the Nagano Prefecture, and other places all over Japan, but this is interpreted to be because in the past, rats did cause a lot of harm, and temples that held m"
+    },
+    {
+      "id": "philippines_4023",
+      "country": "philippines",
+      "article_title": "Aguingay",
+      "true": "Legendary Creatures",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "Just recently united in marriage, brave and handsome Bulusan and beautiful Agingay live happily under the shadow of the volcano, but, unknown to the happily married couple; evil lurks in the shadows, in the person of Casiguran, son of Apu Juban, the old, but respected village chieftain. Casiguran, w"
+    },
+    {
+      "id": "india_3385",
+      "country": "india",
+      "article_title": "Kathasaritsagara",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "Somadeva declares that his work is a faithful though abridged translation of a much larger collection of stories known as the Bṛhatkathā, or Great Tale written in the lost Paisaci dialect by Guṇāḍhya. But the Kashmirian (or \"Northwestern\") Bṛhatkathā that Somadeva adapted may be quite different from"
+    },
+    {
+      "id": "japan_679",
+      "country": "japan",
+      "article_title": "Kappa (folklore)",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "Chiyo Amagozen (千代尼御前) allegedly survived and came to Chikugo Province, or so claims writings such as the Chikugo-gaku yurai (筑後楽由来; \"Derivation of the Chikugo music\") and Suitengū engi (水天宮縁起; \"Origin of the Suitengū shrine\"); she is supposedly enshrined at the Amagozen-sha shrine in Senoshita-mach"
+    },
+    {
+      "id": "indonesia_4529",
+      "country": "indonesia",
+      "article_title": "Malin Kundang",
+      "true": "Place-Based Legends",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "She prayed for him every day for decades following his departure and spent all her riches in these prayers, hoping that a higher power would bring her son home safely. The continuous prayers and visits to the mosque led her to poverty. As she was paddling in the Brunei river one day, she saw a large"
+    },
+    {
+      "id": "india_3477",
+      "country": "india",
+      "article_title": "Mahānipāta Jātaka",
+      "true": "Legendary Creatures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "=== 9. Vidhura Panditta (the eloquent sage) - Act of reality (sacca) ===\n(Khmer: ព្រះវិធុរបណ្ឌិត Thai: พระวิธูรบัณฑิต Burmese: ဝိဓူရအမတ်)\nKing Dhananjaya lived in the city of Indapatta in the Kingdom of Kuru. Vidhura Panditta (the Bodhisatta) who was his sage, had a great eloquence in discoursing on"
+    },
+    {
+      "id": "japan_930",
+      "country": "japan",
+      "article_title": "Nurikabe",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "Some nurikabe-like experiences that have been recorded have been attributed as the doing of a tanuki (enchanted Japanese raccoon dog) in Ōita Prefecture. These happenings, instead of involving a wall, are instances where the traveler suddenly cannot see in front of themselves. This legendary phenome"
+    },
+    {
+      "id": "japan_276",
+      "country": "japan",
+      "article_title": "Moon rabbit",
+      "true": "Legendary Creatures",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "In the Buddhist Jataka tales, Tale 316 relates that a monkey, an otter, a jackal, and a rabbit resolved to practice charity on the day of the full moon (Uposatha), believing a demonstration of great virtue would earn a great reward. When an old man begged for food from them, the monkey gathered frui"
+    },
+    {
+      "id": "japan_1209",
+      "country": "japan",
+      "article_title": "Yamawaro",
+      "true": "Ghosts and Spirits",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "Yamawaro (山童; or yamawarau) is a yōkai (spirit) said to appear in mountains in Western Japan, starting in the Kyūshū region. According to mythology, it is sometimes said that they are kappa that have come to dwell in the mountains.\nYamawaro are known by a number of different, similar terms; in Ashik"
+    },
+    {
+      "id": "china_2648",
+      "country": "china",
+      "article_title": "Lady Ma (character)",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "The spilled-water story is also associated with the Han-dynasty official Zhu Maichen and his wife in other versions of the tradition. A study of the story notes that the Jiang Ziya version was already recorded in the Song dynasty and closely resembles the Zhu Maichen story.\n== References =="
+    },
+    {
+      "id": "japan_973",
+      "country": "japan",
+      "article_title": "Ōnyūdō",
+      "true": "Legendary Creatures",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "In Shimagōko field, Toyono, Shimomashiki District, Kumamoto Prefecture (now part of Uki), there is a hill called Ima ni mo Saka. In the past, an Ōnyūdō was said to appear there, startling passersby. People later claimed that if one spoke about the phenomenon while passing the hill, a voice would rep"
+    },
+    {
+      "id": "japan_212",
+      "country": "japan",
+      "article_title": "Datsue-ba",
+      "true": "Legendary Creatures",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "Several Buddhist texts that quote from the Jizō jūō kyō also include depictions of Datsueba, including the Futsū shōdō shū (Anthology of Basic Materials for Instructing People in Buddhism), and Jishu hyaku innen shū (Personal Selection of One Hundred Tales Concerning Retribution). In these texts, Da"
+    },
+    {
+      "id": "japan_750",
+      "country": "japan",
+      "article_title": "Kitsune",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "Kitsunetsuki (狐憑き, 狐付き), also written kitsune-tsuki, literally means 'the state of being possessed by a fox'. Stories of fox possession (kitsunetsuki) are widespread throughout Japan.\nStories of kitsunetsuki s have already been attested during the Heian period, and the setsuwa narrative blaming illn"
+    },
+    {
+      "id": "china_2796",
+      "country": "china",
+      "article_title": "Twelve Ornaments",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "When the Twelve ornaments were used in different amounts, it could denote different social ranks; for example, in 59 AD during the Eastern Han dynasty, it was specified that the 12 ornaments concerning the sun, the moon and the star had to be used for the emperors while 9 ornaments concerning mounta"
+    },
+    {
+      "id": "india_3585",
+      "country": "india",
+      "article_title": "Punjabi Qisse",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "The ending of the plot of qissas is open-ended despite being romantic stories, so they lack a hypothetical final plot with a marriage between the lovers. This is an allusion to the Sufi belief that no matter how much a person may love God, even at the highest possible level, they can never possess G"
+    },
+    {
+      "id": "japan_316",
+      "country": "japan",
+      "article_title": "Qilin",
+      "true": "Legendary Creatures",
+      "predicted": "Cultural Superstitions and Practices",
+      "text_snippet": "The dance is accompanied by music played on traditional Chinese instruments, including drums, flutes, and cymbals. Today, similar to the Chinese Lion and Dragon dances, the Qilin dance is commonly performed during important Chinese celebrations and festivals, such as Chinese New Year and weddings, i"
+    },
+    {
+      "id": "india_3879",
+      "country": "india",
+      "article_title": "Nala and Damayanti",
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "The Nalachampu (\"Champu of Nala\") belongs to the Champu genre, a mixture of artistic prose and metrical poetry. The work is also known under the title Damayantikatha (\"Story of Damayanti\") and was written by Trivikramabhatta (around 900).\nThe Raghavanaishadhiya (\"[story] of the descendant of Raghu a"
+    },
+    {
+      "id": "china_2655",
+      "country": "china",
+      "article_title": "Langgan",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "Three sections about western Chinese mountains in the c. 4th-2nd centuries BCE Shanhaijing \"Classic of Mountains and Seas\" record early geographic legends associating langgan with Xi Wang Mu \"Queen Mother of the West\" who lives on Jade Mountain in the mythological axis mundi Kunlun Mountain paradise"
+    },
+    {
+      "id": "japan_1561",
+      "country": "japan",
+      "article_title": "Wani (dragon)",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "De Visser additionally compared the Japanese Hoori/Hohodemi legend with Indonesian myths from the Kei Islands and Minahassa Peninsula."
+    },
+    {
+      "id": "japan_1961",
+      "country": "japan",
+      "article_title": "Marebito",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "Cargo cult\nNamahage\nEbisu (mythology)\nUltraman\nOmotenashi\nXenia (Greek)\n== References ==\n== Bibliography ==\nShikida, Asami (2009-09-01). \"The Role of Outsiders in the Community Development Process\". The Journal of International Media, Communication, and Tourism Studies (in Japanese). 9: 79–100.\nMink"
+    },
+    {
+      "id": "indonesia_4302",
+      "country": "indonesia",
+      "article_title": "King Iguana",
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "In a tale from the Loda language titled Ngo Pitiri-Gulungi-luri (Dutch: Prinses Gulungi-luri, English: \"Princess Gulungi-luri\"), a wellkeeper goes to fetch water by the sea and finds an iguana she brings home in a box. Back home, she prepares dishes for herself; the iguana crawls out of the box, rem"
+    },
+    {
+      "id": "japan_2106",
+      "country": "japan",
+      "article_title": "The Tale of the Bamboo Cutter",
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "Among the suitors are five nobles: Prince Ishitsukuri (石作皇子), Prince Kuramochi (車持皇子), the Minister of the Right Abe no Miushi (右大臣阿倍御主人), the Grand Counselor Ōtomo no Miyuki (大納言大伴御行), and the Middle Counselor Isonokami no Marotari (中納言石上まろたり). They eventually persuade the old man to have Kaguya-hi"
+    },
+    {
+      "id": "philippines_4059",
+      "country": "philippines",
+      "article_title": "Anito",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "Anito: Defend a Land Enraged is a role-playing game released in 2003 by Anino Entertainment. It was the first  video game to be produced and designed entirely by a team of Filipino game developers, and is credited for helping spawn the birth of the game development industry in the Philippines.\nOne o"
+    },
+    {
+      "id": "india_3627",
+      "country": "india",
+      "article_title": "Shringara-manjari-katha",
+      "true": "Fairy Tales and Fables",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "Vishama-shila explains that Madhava's attachment was like safflower (kusumbha). Just like a cloth dyed in safflower is not suitable for washing or exposing to heat, a man with this character becomes estranged and evil when offended. Therefore, a courtesan should take the wealth of such a man without"
+    },
+    {
+      "id": "india_3309",
+      "country": "india",
+      "article_title": "Hitopadesha",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "The authorship of the Hitopadesa has been contested. 19th-century Indologists attributed the text to Vishnu Sharma, a narrator and character that often appears in its fables. Upon the discovery of the oldest known manuscript of the text in Nepal, dated to 1373, and the preparation of a critical edit"
+    },
+    {
+      "id": "japan_247",
+      "country": "japan",
+      "article_title": "Hashihime",
+      "true": "Legendary Creatures",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "The story is set during the reign of Emperor Saga (809–823). A noblewoman, consumed by jealousy towards a rival, performs a seven-day retreat at Kifune Shrine. She prays to the deity (Kifune Myōjin) to turn her into a living kijo (demoness) to exact revenge. Taking pity, the deity instructs her: \"If"
+    },
+    {
+      "id": "japan_1661",
+      "country": "japan",
+      "article_title": "Bunbuku Chagama",
+      "true": "Fairy Tales and Fables",
+      "predicted": "Cultural Superstitions and Practices",
+      "text_snippet": "The fairy tale version is thought to be connected to the legend about an inexhaustible tea kettle at the temple Morin-ji in Tatebayashi, Gunma, owned by a priest named Shukaku (守鶴) who turned out to be an ancient mujina (raccoon dog or badger).\nThe nineteenth century fairy tale (such as represented "
+    },
+    {
+      "id": "philippines_4011",
+      "country": "philippines",
+      "article_title": "Souls in Filipino cultures",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "List of Philippine mythological figures\nList of reportedly haunted locations in the Philippines\nMalay ghost myths\nPhilippine mythology\nSoul dualism\n== References =="
+    },
+    {
+      "id": "indonesia_4425",
+      "country": "indonesia",
+      "article_title": "Barong (mythology)",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "Lansing, J. Stephen (1995). The Balinese. San Diego: Harcourt Brace College Publishers. ISBN 978-0-15-500240-1.\nSlattum, Judy (2011). Masks of Bali: Spirits of an Ancient Drama. San Francisco: Tuttle Publishing. ISBN 978-0804841849."
+    },
+    {
+      "id": "japan_1534",
+      "country": "japan",
+      "article_title": "Kuzuryū",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "Kuzuryū (九頭龍, nine-headed dragon), or Kuzuryūshin (九頭龍神, nine-headed dragon god) is a deity that appears in folklore and legends of various parts of Japan, including, for example, Hakone (Kanagawa), Nagano Prefecture and Fukui Prefecture. In many cases, the Kuzuryū is associated with water.\n== Hakon"
+    },
+    {
+      "id": "philippines_3893",
+      "country": "philippines",
+      "article_title": "Biringan",
+      "true": "Place-Based Legends",
+      "predicted": "Deities and Mythological Figures",
+      "text_snippet": "Biringan (Tagalog pronunciation: [ˈbɪɾɪŋɐn]) is a mythical city said to lie invisibly between the municipalities of Gandara and Pagsanghan in the province of Samar, Philippines. Described as ultramodern, engkantos (\"enchanted beings\") populate the city. Seven portals are said to be scattered across "
+    },
+    {
+      "id": "japan_1011",
+      "country": "japan",
+      "article_title": "Shiranui (optical phenomenon)",
+      "true": "Ghosts and Spirits",
+      "predicted": "Cultural Superstitions and Practices",
+      "text_snippet": "In the Taishō era, Shiranui attracted the attention of many people, including scholars and journalists who attempted to scientifically explain the phenomenon, one notion being the fires as a type of mirage. There was a large scale investigation with two ships and more than 50 people in the Ariake Se"
+    },
+    {
+      "id": "indonesia_4531",
+      "country": "indonesia",
+      "article_title": "Malin Kundang",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Fairy Tales and Fables",
+      "text_snippet": "One day, the villagers saw a big ship, and the news of the captain being Tanggang immediately spread to his parents. Excited to see their son, they immediately paddled towards the ship as they called out to Tanggang. As soon as he saw their appearance, Tanggang pretended to be unaware of who they we"
+    },
+    {
+      "id": "japan_159",
+      "country": "japan",
+      "article_title": "Yamashita's gold",
+      "true": "Place-Based Legends",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "Colin Howell, a Northern Irish double murderer, lost the majority of the money he obtained by murdering his wife in a scam purporting to recover Yamashita's gold. This was dramatised on ITV in 2016 as The Secret.\nIn the visual novel Umineko no Naku Koro ni, Yamashita's gold is alluded to in the 7th "
+    },
+    {
+      "id": "china_2571",
+      "country": "china",
+      "article_title": "Fengdu Dadi",
+      "true": "Place-Based Legends",
+      "predicted": "Deities and Mythological Figures",
+      "text_snippet": "Mount Luofeng was described as a mythical mountain in the far north. By the Tang and Song dynasties, Fengdu Dadi became associated with Fengdu County in present-day Chongqing, formerly part of Sichuan. Daoist tradition regarded Mount Pingdu (平都山) in Fengdu County as a blessed land (福地). It was also "
+    },
+    {
+      "id": "japan_1970",
+      "country": "japan",
+      "article_title": "Myōbu",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "The reason why myōbu are associated with Inari Ōkami is unknown, but there are many theories regarding the origin of myōbu as the messengers of Inari Ōkami. One common explanation is that foxes were originally associated with the older kami of rice fields, Ta-no-Kami. The association between foxes a"
+    },
+    {
+      "id": "japan_330",
+      "country": "japan",
+      "article_title": "Raijū",
+      "true": "Legendary Creatures",
+      "predicted": "Cultural Superstitions and Practices",
+      "text_snippet": "Ogawamachi Saitō; et al. (2006). Jinbunsha Editorial Dept. (ed.). Nihon no Nazo to Fushigi Taizen. Monoshiri Mini Series (in Japanese). Vol. West Japan. Jinbunsha. ISBN 978-4-7959-1987-7.\nIwao Hino (2006) [1926]. Dōbutsu Yōkai Tan. Chuko Bunko (in Japanese). Vol. 1. Chuokoron-Shinsha. ISBN 978-4-12-"
+    },
+    {
+      "id": "china_2600",
+      "country": "china",
+      "article_title": "Great Flood (China)",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "According to the main mythological tradition, Gun's plan of flood control was through the use of a miraculously continuously self-expanding soil, Xirang. Gun chose to obtain the Xirang by stealing it from the Supreme Divinity, which he did; however, the Supreme Divinity became quite angered at this "
+    },
+    {
+      "id": "china_2630",
+      "country": "china",
+      "article_title": "Huangmei Dawang",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "The Yellow-Browed Great King is featured in the video game Black Myth: Wukong, with the game expanding on his character. Presenting him with a unique philosophical motivation, in this interpretation, he seems driven by a cynical view of human and demon nature, believing that desire is an inescapable"
+    },
+    {
+      "id": "india_3315",
+      "country": "india",
+      "article_title": "Human tiger",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "Human tiger is a famous and now-dying folk dance tradition of Nagpur. This was in vogue till 1974–75. This involved skin painting of strong statured men with tiger-like colours and dance of these men in open during various festivals like Ganpati festival and Moharram.\n== See also ==\nNagpur\n== Extern"
+    },
+    {
+      "id": "japan_1036",
+      "country": "japan",
+      "article_title": "Sōjōbō",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "The name Sōjōbō originates from Sōjōgatani, the valley at Mount Kurama near Kibune Shrine associated with the Shugenja. It is in this valley that Ushiwaka-maru trained with Sōjōbō in legend. Sōjōgatani means Bishop's valley or Bishop's vale. The name of this valley is derived from the ascetic Sōjō I"
+    },
+    {
+      "id": "india_3644",
+      "country": "india",
+      "article_title": "Shringara-manjari-katha",
+      "true": "Legendary Creatures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "The text has attracted scholarly attention for its mention of a garden with several mechanical devices, including a mechanical doll (yantra-putraka) located near a mechanical \"fountain house\" (yantra-dhārā-gṛha). While the doll is used as a literary device to praise Bhoja, what is notable is that th"
+    },
+    {
+      "id": "china_2340",
+      "country": "china",
+      "article_title": "Marquis of Sui's pearl",
+      "true": "Legendary Creatures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "Suíhóuzhū (隨侯珠, \"the Marquis of Sui's pearl\") has a literary synonym Suíhóuzhīzhū (隨侯之珠) with the Classical Chinese grammatical possessive affix zhī (之). Suí (隨, lit. \"follow; pursue; comply with; adapt to\") is the name of a small ancient state during the Shang and Western Zhou dynasties, located in"
+    },
+    {
+      "id": "japan_2075",
+      "country": "japan",
+      "article_title": "Shisa",
+      "true": "Cultural Superstitions and Practices",
+      "predicted": "Legendary Creatures",
+      "text_snippet": "Shisa (シーサー, shīsā) is a traditional Ryukyuan cultural artifact and decoration derived from Chinese guardian lions, often seen in similar pairs, resembling a cross between a lion and a dog, from Okinawan mythology. Shisa are wards, believed to protect from some evils. People place pairs of shisa on "
+    },
+    {
+      "id": "philippines_4196",
+      "country": "philippines",
+      "article_title": "Heaven",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Deities and Mythological Figures",
+      "text_snippet": "Works of fiction have included numerous conceptions of Heaven and Hell. Two famous descriptions of Heaven are given in Dante Alighieri's Paradiso (of the Divine Comedy) and John Milton's Paradise Lost.\n== See also ==\n== References ==\n=== Citations ===\n=== General and cited references ===\n== External"
+    },
+    {
+      "id": "china_2749",
+      "country": "china",
+      "article_title": "South-pointing chariot",
+      "true": "Legendary and Historical Figures",
+      "predicted": "Cultural Superstitions and Practices",
+      "text_snippet": "Left and right, too, were double gear-wheels (lit. tier-wheels), a pair on either side. Each of the lower component gears was 2.1 ft. in diameter and 6.3 ft. in circumference, with 32 teeth, at intervals of 2.1 inches apart. Each of the upper component gears was 1.2 ft. in diameter and 3.6 ft. in ci"
+    },
+    {
+      "id": "india_3387",
+      "country": "india",
+      "article_title": "Kathasaritsagara",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "The first book (Kathapitha) is introductory, and refers the origin of the tales contained in the collection to Shiva, who, it is said, related them in private conversation with his wife, Parvati, for her entertainment. One of the attendants of the deity, Pushpadanta, took the liberty of listening, a"
+    },
+    {
+      "id": "japan_1776",
+      "country": "japan",
+      "article_title": "Imohori Tōgoro Shrine",
+      "true": "Place-Based Legends",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "Imohori Tōgoro Shrine (芋堀藤五郎神社, imohori Tōgoro-jinja), also known as Tōgoro Shrine (藤五郎神社, Tōgoro-jinja) is a Shinto shrine located in the hillside community of Yamashina-machi, Kanazawa, Ishikawa Prefecture, Japan. It is a one-bay shrine built in the nagare-zukuri style.\nThe shrine is a featured cu"
+    },
+    {
+      "id": "china_2532",
+      "country": "china",
+      "article_title": "Chinese flood myths",
+      "true": "Deities and Mythological Figures",
+      "predicted": "Legendary and Historical Figures",
+      "text_snippet": "Chinese flood myths are flood myths in Chinese mythology. In 1961, Derk Bodde stated that \"from all mythological themes in ancient Chinese, the earliest and so far most pervasive is about flood.\" Chinese flood myths have shared characteristics with other flood myths all over the world, though they a"
+    },
+    {
+      "id": "philippines_3947",
+      "country": "philippines",
+      "article_title": "Berbalang",
+      "true": "Legendary Creatures",
+      "predicted": "Ghosts and Spirits",
+      "text_snippet": "The cocoa-nut pearl, a stone like an opal sometimes found in the cocoa-nut, is the only really efficacious charm against their attacks; and it is only of value to the finder, as its magic powers cease when it is given away.  When the finder dies the pearl loses its luster and becomes dead.  The juic"
+    }
+  ],
+  "error_rate_by_country": {
+    "japan": 0.2682926829268293,
+    "indonesia": 0.35294117647058826,
+    "india": 0.37037037037037035,
+    "china": 0.3333333333333333,
+    "philippines": 0.5
+  },
+  "error_rate_by_category": {
+    "Ghosts and Spirits": 0.09090909090909091,
+    "Fairy Tales and Fables": 0.25925925925925924,
+    "Legendary and Historical Figures": 0.3142857142857143,
+    "Legendary Creatures": 0.26666666666666666,
+    "Deities and Mythological Figures": 0.5294117647058824,
+    "Cultural Superstitions and Practices": 0.45,
+    "Place-Based Legends": 1.0
+  }
+}

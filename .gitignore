@@ -1,0 +1,24 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+dist/
+.DS_Store
+
+# out of scope / superseded
+server/data/raw/thailand*.json
+server/data/curated/thailand.json
+server/data/processed/distilbert_model/
+server/data/processed/distilbert_model_run2/
+server/data/processed/distilbert_model_run3/
+server/data/processed/distilbert_model_run4/
+
+# run5 is the final model - keep config/tokenizer/metrics, drop the large weight files
+server/data/processed/distilbert_model_run5/**/model.safetensors
+server/data/processed/distilbert_model_run5/**/optimizer.pt
+server/data/processed/distilbert_model_run5/model.safetensors
+server/data/processed/distilbert_model_run5/optimizer.pt
+
+# leftover zip bundles, redundant with the actual files already tracked
+server/data/processed.zip
+server/scripts.zip

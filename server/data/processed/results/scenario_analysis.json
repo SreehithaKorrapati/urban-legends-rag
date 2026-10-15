@@ -1,0 +1,107 @@
+[
+  {
+    "model": "TF-IDF + Logistic Regression",
+    "country": "china",
+    "n": 33,
+    "accuracy": 0.6060606060606061,
+    "macro_f1": 0.3636949516648764
+  },
+  {
+    "model": "TF-IDF + Logistic Regression",
+    "country": "india",
+    "n": 27,
+    "accuracy": 0.6296296296296297,
+    "macro_f1": 0.3148629148629149
+  },
+  {
+    "model": "TF-IDF + Logistic Regression",
+    "country": "indonesia",
+    "n": 17,
+    "accuracy": 0.6470588235294118,
+    "macro_f1": 0.3523809523809524
+  },
+  {
+    "model": "TF-IDF + Logistic Regression",
+    "country": "japan",
+    "n": 82,
+    "accuracy": 0.7073170731707317,
+    "macro_f1": 0.6044046117816608
+  },
+  {
+    "model": "TF-IDF + Logistic Regression",
+    "country": "philippines",
+    "n": 12,
+    "accuracy": 0.4166666666666667,
+    "macro_f1": 0.2346938775510204
+  },
+  {
+    "model": "Zero-shot LLM prompting",
+    "country": "china",
+    "n": 33,
+    "accuracy": 0.8484848484848485,
+    "macro_f1": 0.8476190476190476
+  },
+  {
+    "model": "Zero-shot LLM prompting",
+    "country": "india",
+    "n": 27,
+    "accuracy": 0.7777777777777778,
+    "macro_f1": 0.6545530492898913
+  },
+  {
+    "model": "Zero-shot LLM prompting",
+    "country": "indonesia",
+    "n": 17,
+    "accuracy": 0.7647058823529411,
+    "macro_f1": 0.7111111111111111
+  },
+  {
+    "model": "Zero-shot LLM prompting",
+    "country": "japan",
+    "n": 82,
+    "accuracy": 0.8536585365853658,
+    "macro_f1": 0.8107146821432535
+  },
+  {
+    "model": "Zero-shot LLM prompting",
+    "country": "philippines",
+    "n": 12,
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.5357142857142857
+  },
+  {
+    "model": "Fine-tuned DistilBERT (primary)",
+    "country": "china",
+    "n": 33,
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.5493308434484905
+  },
+  {
+    "model": "Fine-tuned DistilBERT (primary)",
+    "country": "india",
+    "n": 27,
+    "accuracy": 0.6296296296296297,
+    "macro_f1": 0.4784334023464458
+  },
+  {
+    "model": "Fine-tuned DistilBERT (primary)",
+    "country": "indonesia",
+    "n": 17,
+    "accuracy": 0.6470588235294118,
+    "macro_f1": 0.3557422969187675
+  },
+  {
+    "model": "Fine-tuned DistilBERT (primary)",
+    "country": "japan",
+    "n": 82,
+    "accuracy": 0.7317073170731707,
+    "macro_f1": 0.5744810744810744
+  },
+  {
+    "model": "Fine-tuned DistilBERT (primary)",
+    "country": "philippines",
+    "n": 12,
+    "accuracy": 0.5,
+    "macro_f1": 0.3197278911564626
+  }
+]
