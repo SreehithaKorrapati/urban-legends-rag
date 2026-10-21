@@ -1,0 +1,6 @@
+﻿numpy
+requests
+scikit-learn
+torch
+transformers
+accelerate

@@ -1,4 +1,4 @@
-﻿# error_analysis.py - confusion matrix, top confusion pairs, misclassified examples, and
+# error_analysis.py - confusion matrix, top confusion pairs, misclassified examples, and
 # error rates by country/category for a saved classifier results file.
 # Run: python scripts/ml/error_analysis.py [--model distilbert_results_run5.json] [--samples 15]
 
@@ -12,6 +12,7 @@ SPLITS_DIR = os.path.join(BASE_DIR, "data", "processed", "splits")
 RESULTS_DIR = os.path.join(BASE_DIR, "data", "processed", "results")
 
 DEFAULT_CANDIDATES = [
+    "distilbert_results_run5.json",
     "distilbert_results_run2.json",
     "distilbert_results_run1.json",
     "distilbert_results.json",

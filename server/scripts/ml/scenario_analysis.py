@@ -1,4 +1,4 @@
-﻿# scenario_analysis.py - per-country (scenario) breakdown of classifier performance.
+# scenario_analysis.py - per-country (scenario) breakdown of classifier performance.
 # Reads the test split (carries a "country" field per example) plus whichever result
 # files exist; predictions/true_labels in each results file line up by index with
 # test.json, which is what lets us attach a country to each prediction.
@@ -17,8 +17,6 @@ RESULTS_DIR = os.path.join(BASE_DIR, "data", "processed", "results")
 RESULT_FILES = [
     ("TF-IDF + Logistic Regression", "baseline_tfidf_results.json"),
     ("Zero-shot LLM prompting", "baseline_zeroshot_results.json"),
-    ("Fine-tuned DistilBERT (run1)", "distilbert_results_run1.json"),
-    ("Fine-tuned DistilBERT (run1)", "distilbert_results.json"),  # fallback if not re-run with the new tag
     ("Fine-tuned DistilBERT (primary)", "distilbert_results_run5.json"),
 ]
 
