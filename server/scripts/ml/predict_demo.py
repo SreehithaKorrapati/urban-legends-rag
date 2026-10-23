@@ -40,7 +40,6 @@ def predict(text):
 
 def show(title, text, true=None):
     # Print the top 3 categories for one passage
-    print("\n" + "=" * 70)
     print(title)
     print(text[:300].replace("\n", " ") + ("..." if len(text) > 300 else ""))
     if true:
