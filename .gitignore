@@ -22,3 +22,5 @@ server/data/processed/distilbert_model_run5/optimizer.pt
 # leftover zip bundles, redundant with the actual files already tracked
 server/data/processed.zip
 server/scripts.zip
+server/data/processed/distilbert_model_*/model.safetensors
+server/data/processed/distilbert_model_*/checkpoints/

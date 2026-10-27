@@ -1,11 +1,19 @@
-﻿# finetune_distilbert.py - fine-tunes DistilBERT as the primary classifier, evaluates
+# finetune_distilbert.py - fine-tunes DistilBERT as the primary classifier, evaluates
 # on the held-out test set with the same metrics as the baselines for a fair comparison.
-# Supports tagged runs (--tag) so different hyperparameter runs don't overwrite each other.
-# Run: python scripts/ml/finetune_distilbert.py --tag run5 --epochs 10 --lr 2e-5
+# Supports tagged runs (--tag) so different runs don't overwrite each other.
+# Defaults reproduce the reported run5 setup (no class weights, no oversampling, seed 42).
+#
+# Examples (run from the repository root):
+#   python server/scripts/ml/finetune_distilbert.py --tag run5 --epochs 10 --lr 2e-5
+#   python server/scripts/ml/finetune_distilbert.py --tag run6 --class-weights sqrt
+#   python server/scripts/ml/finetune_distilbert.py --tag run7 --oversample 100
+#   python server/scripts/ml/finetune_distilbert.py --tag smoke --limit 64 --epochs 1   (quick check)
 
 import argparse
 import json
 import os
+import random
+from collections import Counter
 
 import numpy as np
 import torch
@@ -42,9 +50,16 @@ ID2LABEL = {i: c for i, c in enumerate(CATEGORIES)}
 
 def parse_args():
     p = argparse.ArgumentParser(description="Fine-tune DistilBERT (supports multiple tagged runs).")
-    p.add_argument("--epochs", type=int, default=10, help="Number of training epochs (default: 10, matches run1).")
-    p.add_argument("--lr", type=float, default=2e-5, help="Learning rate (default: 2e-5, matches run1).")
-    p.add_argument("--tag", type=str, default="run1", help="Suffix for output files/dirs, e.g. 'run2' (default: run1).")
+    p.add_argument("--epochs", type=int, default=10, help="Number of training epochs (default: 10).")
+    p.add_argument("--lr", type=float, default=2e-5, help="Learning rate (default: 2e-5).")
+    p.add_argument("--tag", type=str, default="run1", help="Suffix for output files/dirs, e.g. 'run6'.")
+    p.add_argument("--seed", type=int, default=42, help="Training seed (initialisation and data order). The data split stays fixed.")
+    p.add_argument("--class-weights", choices=["none", "sqrt", "balanced"], default="none",
+                   help="Weight the loss by class frequency. 'balanced' = N/(K*n_c); 'sqrt' = its square root (gentler).")
+    p.add_argument("--oversample", type=int, default=0,
+                   help="If > 0, repeat random training passages of rare classes until each class has this many.")
+    p.add_argument("--limit", type=int, default=0,
+                   help="If > 0, use only this many examples per split (quick smoke test; do not report these results).")
     return p.parse_args()
 
 
@@ -55,6 +70,39 @@ def load_split(name):
     texts = [item["text"] for item in data]
     labels = [LABEL2ID[item["gold_category"]] for item in data]
     return texts, labels
+
+
+def limit_split(texts, labels, n, seed):
+    if n <= 0 or n >= len(texts):
+        return texts, labels
+    idx = random.Random(seed).sample(range(len(texts)), n)
+    return [texts[i] for i in idx], [labels[i] for i in idx]
+
+
+def oversample(texts, labels, target, seed):
+    # Repeats randomly chosen passages of classes below `target` until they reach it.
+    # Only the training split is touched; validation and test stay as they are.
+    rng = random.Random(seed)
+    by_class = {}
+    for i, y in enumerate(labels):
+        by_class.setdefault(y, []).append(i)
+    new_texts, new_labels = list(texts), list(labels)
+    for y, idxs in by_class.items():
+        for _ in range(max(0, target - len(idxs))):
+            i = rng.choice(idxs)
+            new_texts.append(texts[i])
+            new_labels.append(y)
+    return new_texts, new_labels
+
+
+def compute_class_weights(labels, mode):
+    counts = Counter(labels)
+    n, k = len(labels), len(CATEGORIES)
+    w = []
+    for c in range(k):
+        base = n / (k * counts[c]) if counts[c] else 0.0
+        w.append(base ** 0.5 if mode == "sqrt" else base)
+    return torch.tensor(w, dtype=torch.float)
 
 
 class FolkloreDataset(Dataset):
@@ -69,6 +117,22 @@ class FolkloreDataset(Dataset):
         item = {k: torch.tensor(v[idx]) for k, v in self.encodings.items()}
         item["labels"] = torch.tensor(self.labels[idx])
         return item
+
+
+class WeightedTrainer(Trainer):
+    # Same as Trainer, but the cross-entropy loss is weighted per class.
+    def __init__(self, *args, class_weights=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.class_weights = class_weights
+
+    def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
+        labels = inputs["labels"]
+        model_inputs = {k: v for k, v in inputs.items() if k != "labels"}
+        outputs = model(**model_inputs)
+        logits = outputs.logits
+        weight = self.class_weights.to(logits.device) if self.class_weights is not None else None
+        loss = torch.nn.functional.cross_entropy(logits, labels, weight=weight)
+        return (loss, outputs) if return_outputs else loss
 
 
 class LossHistoryCallback(TrainerCallback):
@@ -105,14 +169,34 @@ def main():
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
-    print(f"=== Run tag: {tag} | epochs={num_epochs} | lr={learning_rate} ===")
+    print(f"=== Run tag: {tag} | epochs={num_epochs} | lr={learning_rate} | seed={args.seed} "
+          f"| class_weights={args.class_weights} | oversample={args.oversample} ===")
 
     # Load the fixed train/val/test split
     print("Loading data...")
     train_texts, train_labels = load_split("train")
     val_texts, val_labels = load_split("val")
     test_texts, test_labels = load_split("test")
+    if args.limit > 0:
+        print(f"WARNING: --limit {args.limit} is set. This is a smoke test, not a reportable run.")
+        train_texts, train_labels = limit_split(train_texts, train_labels, args.limit, args.seed)
+        val_texts, val_labels = limit_split(val_texts, val_labels, args.limit, args.seed)
+        test_texts, test_labels = limit_split(test_texts, test_labels, args.limit, args.seed)
+    if args.oversample > 0:
+        before = Counter(train_labels)
+        train_texts, train_labels = oversample(train_texts, train_labels, args.oversample, args.seed)
+        after = Counter(train_labels)
+        print("Training passages per class (before -> after oversampling):")
+        for c in range(len(CATEGORIES)):
+            print(f"  {ID2LABEL[c]:<40}{before[c]:>5} -> {after[c]:>5}")
     print(f"Train: {len(train_texts)}, Val: {len(val_texts)}, Test: {len(test_texts)}")
+
+    class_weights = None
+    if args.class_weights != "none":
+        class_weights = compute_class_weights(train_labels, args.class_weights)
+        print("Class weights:")
+        for c in range(len(CATEGORIES)):
+            print(f"  {ID2LABEL[c]:<40}{class_weights[c].item():.3f}")
 
     # Load tokenizer + model
     print(f"Loading tokenizer and model ({MODEL_NAME})...")
@@ -137,13 +221,13 @@ def main():
         logging_strategy="epoch",
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
-        seed=42,
+        seed=args.seed,
         report_to="none",
     )
 
     loss_callback = LossHistoryCallback()
 
-    trainer = Trainer(
+    trainer_kwargs = dict(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
@@ -151,6 +235,10 @@ def main():
         compute_metrics=compute_metrics,
         callbacks=[loss_callback],
     )
+    if class_weights is not None:
+        trainer = WeightedTrainer(class_weights=class_weights, **trainer_kwargs)
+    else:
+        trainer = Trainer(**trainer_kwargs)
 
     # Train
     print(f"\nTraining for {num_epochs} epochs at lr={learning_rate}...")
@@ -186,7 +274,14 @@ def main():
     # Save results and model
     results = {
         "model": f"Fine-tuned {MODEL_NAME} ({tag})",
-        "hyperparameters": {"epochs": num_epochs, "learning_rate": learning_rate, "batch_size": BATCH_SIZE},
+        "hyperparameters": {
+            "epochs": num_epochs,
+            "learning_rate": learning_rate,
+            "batch_size": BATCH_SIZE,
+            "seed": args.seed,
+            "class_weights": args.class_weights,
+            "oversample_target": args.oversample,
+        },
         "accuracy": accuracy,
         "macro_f1": macro_f1,
         "weighted_f1": weighted_f1,

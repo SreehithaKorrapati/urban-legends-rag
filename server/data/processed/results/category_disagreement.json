@@ -1,0 +1,109 @@
+{
+  "per_category": {
+    "Place-Based Legends": {
+      "chunks": 26,
+      "unanimous_rate": 0.07692307692307693,
+      "mean_pairwise_agreement": 0.3205128205128204
+    },
+    "Cultural Superstitions and Practices": {
+      "chunks": 129,
+      "unanimous_rate": 0.3953488372093023,
+      "mean_pairwise_agreement": 0.571059431524548
+    },
+    "Deities and Mythological Figures": {
+      "chunks": 105,
+      "unanimous_rate": 0.3904761904761905,
+      "mean_pairwise_agreement": 0.5809523809523817
+    },
+    "Fairy Tales and Fables": {
+      "chunks": 175,
+      "unanimous_rate": 0.5485714285714286,
+      "mean_pairwise_agreement": 0.6780952380952374
+    },
+    "Legendary and Historical Figures": {
+      "chunks": 224,
+      "unanimous_rate": 0.5758928571428571,
+      "mean_pairwise_agreement": 0.6889880952380955
+    },
+    "Ghosts and Spirits": {
+      "chunks": 139,
+      "unanimous_rate": 0.6330935251798561,
+      "mean_pairwise_agreement": 0.7290167865707429
+    },
+    "Legendary Creatures": {
+      "chunks": 300,
+      "unanimous_rate": 0.7,
+      "mean_pairwise_agreement": 0.7844444444444454
+    }
+  },
+  "top_dissent_pairs": [
+    {
+      "gold": "Legendary and Historical Figures",
+      "dissent": "Legendary Creatures",
+      "count": 59
+    },
+    {
+      "gold": "Fairy Tales and Fables",
+      "dissent": "Legendary Creatures",
+      "count": 47
+    },
+    {
+      "gold": "Cultural Superstitions and Practices",
+      "dissent": "Legendary Creatures",
+      "count": 40
+    },
+    {
+      "gold": "Legendary Creatures",
+      "dissent": "Ghosts and Spirits",
+      "count": 35
+    },
+    {
+      "gold": "Deities and Mythological Figures",
+      "dissent": "Legendary Creatures",
+      "count": 34
+    },
+    {
+      "gold": "Fairy Tales and Fables",
+      "dissent": "Legendary and Historical Figures",
+      "count": 30
+    },
+    {
+      "gold": "Ghosts and Spirits",
+      "dissent": "Legendary Creatures",
+      "count": 26
+    },
+    {
+      "gold": "Legendary Creatures",
+      "dissent": "Legendary and Historical Figures",
+      "count": 24
+    },
+    {
+      "gold": "Cultural Superstitions and Practices",
+      "dissent": "Legendary and Historical Figures",
+      "count": 19
+    },
+    {
+      "gold": "Legendary Creatures",
+      "dissent": "Cultural Superstitions and Practices",
+      "count": 17
+    }
+  ],
+  "per_annotator_agreement_with_gold": {
+    "gptoss120b": 0.9052453468697124,
+    "gptoss20b": 0.9042089985486212,
+    "qwen27b": 0.8911022576361222,
+    "gptoss_safeguard20b": 0.878968253968254,
+    "allam7b": 0.5994277539341917
+  },
+  "classifier_error_by_agreement": {
+    "unanimous (3 of 3 agree)": {
+      "n": 84,
+      "errors": 11
+    },
+    "split vote (2 of 3 or less)": {
+      "n": 87,
+      "errors": 44
+    },
+    "fisher_exact_p": 1.1523777590380652e-07
+  }
+}
