@@ -1,0 +1,117 @@
+{
+  "excluded": "allam7b",
+  "chunks": 1099,
+  "chunks_with_excluded": 699,
+  "labels_changed": 55,
+  "ties_resolved_by_confidence": 144,
+  "single_vote_chunks": 3,
+  "top_changes": [
+    {
+      "old": "Legendary Creatures",
+      "new": "Legendary and Historical Figures",
+      "count": 12
+    },
+    {
+      "old": "Ghosts and Spirits",
+      "new": "Legendary Creatures",
+      "count": 9
+    },
+    {
+      "old": "Legendary Creatures",
+      "new": "Deities and Mythological Figures",
+      "count": 4
+    },
+    {
+      "old": "Legendary and Historical Figures",
+      "new": "Deities and Mythological Figures",
+      "count": 4
+    },
+    {
+      "old": "Legendary and Historical Figures",
+      "new": "Fairy Tales and Fables",
+      "count": 3
+    },
+    {
+      "old": "Ghosts and Spirits",
+      "new": "Cultural Superstitions and Practices",
+      "count": 2
+    },
+    {
+      "old": "Legendary Creatures",
+      "new": "Place-Based Legends",
+      "count": 2
+    },
+    {
+      "old": "Legendary Creatures",
+      "new": "Fairy Tales and Fables",
+      "count": 2
+    },
+    {
+      "old": "Legendary and Historical Figures",
+      "new": "Cultural Superstitions and Practices",
+      "count": 2
+    },
+    {
+      "old": "Deities and Mythological Figures",
+      "new": "Place-Based Legends",
+      "count": 2
+    },
+    {
+      "old": "Legendary and Historical Figures",
+      "new": "Legendary Creatures",
+      "count": 2
+    },
+    {
+      "old": "Cultural Superstitions and Practices",
+      "new": "Legendary Creatures",
+      "count": 2
+    },
+    {
+      "old": "Deities and Mythological Figures",
+      "new": "Legendary Creatures",
+      "count": 1
+    },
+    {
+      "old": "Place-Based Legends",
+      "new": "Cultural Superstitions and Practices",
+      "count": 1
+    },
+    {
+      "old": "Fairy Tales and Fables",
+      "new": "Cultural Superstitions and Practices",
+      "count": 1
+    }
+  ],
+  "kappa_without_excluded_3votes": 0.7499443194862225,
+  "kappa_with_excluded_3votes": 0.5247171297501385,
+  "kappa_with_excluded_remaining_2votes": 0.7502261631514807,
+  "pairwise_before": 0.6854887674559805,
+  "pairwise_after": 0.8009132420091324,
+  "splits": {
+    "train": {
+      "n": 767,
+      "labels_changed": 37,
+      "place_based": 21
+    },
+    "val": {
+      "n": 161,
+      "labels_changed": 7,
+      "place_based": 3
+    },
+    "test": {
+      "n": 171,
+      "labels_changed": 11,
+      "place_based": 6
+    }
+  },
+  "run5_comparison": {
+    "run5_vs_original_labels": {
+      "accuracy": 0.6783625730994152,
+      "macro_f1": 0.578214182951814
+    },
+    "run5_vs_new_labels": {
+      "accuracy": 0.695906432748538,
+      "macro_f1": 0.5913030503289137
+    }
+  }
+}

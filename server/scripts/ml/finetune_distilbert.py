@@ -58,13 +58,15 @@ def parse_args():
                    help="Weight the loss by class frequency. 'balanced' = N/(K*n_c); 'sqrt' = its square root (gentler).")
     p.add_argument("--oversample", type=int, default=0,
                    help="If > 0, repeat random training passages of rare classes until each class has this many.")
+    p.add_argument("--splits", type=str, default="splits",
+                   help="Split folder under data/processed (default: splits). Use e.g. splits_no_allam7b for relabeled data.")
     p.add_argument("--limit", type=int, default=0,
                    help="If > 0, use only this many examples per split (quick smoke test; do not report these results).")
     return p.parse_args()
 
 
-def load_split(name):
-    path = os.path.join(SPLITS_DIR, f"{name}.json")
+def load_split(name, splits_dir=SPLITS_DIR):
+    path = os.path.join(splits_dir, f"{name}.json")
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     texts = [item["text"] for item in data]
@@ -174,9 +176,11 @@ def main():
 
     # Load the fixed train/val/test split
     print("Loading data...")
-    train_texts, train_labels = load_split("train")
-    val_texts, val_labels = load_split("val")
-    test_texts, test_labels = load_split("test")
+    splits_dir = os.path.join(BASE_DIR, "data", "processed", args.splits)
+    print(f"Using splits from: {splits_dir}")
+    train_texts, train_labels = load_split("train", splits_dir)
+    val_texts, val_labels = load_split("val", splits_dir)
+    test_texts, test_labels = load_split("test", splits_dir)
     if args.limit > 0:
         print(f"WARNING: --limit {args.limit} is set. This is a smoke test, not a reportable run.")
         train_texts, train_labels = limit_split(train_texts, train_labels, args.limit, args.seed)
@@ -281,6 +285,7 @@ def main():
             "seed": args.seed,
             "class_weights": args.class_weights,
             "oversample_target": args.oversample,
+            "splits": args.splits,
         },
         "accuracy": accuracy,
         "macro_f1": macro_f1,
