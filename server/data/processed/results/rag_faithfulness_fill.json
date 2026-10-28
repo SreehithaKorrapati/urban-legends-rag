@@ -1,0 +1,389 @@
+{
+ "35": {
+  "question": "What physical characteristics and abilities are attributed to the feifei in the text?",
+  "answer": "According to the text, the feifei is described as having a shape like that of an ape, with an upper lip that always covers its head. It possesses the ability to use human speech, though it sounds like a bird, and can foretell life and death. Additionally, it is noted to be strong enough to shoulder one thousand catties (500 kg), and its blood can dye things dark purple while its hair can be used to make wigs [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "36": {
+  "question": "How did the first king of the Shang dynasty handle the wind-propelled flying carriage brought by the Jigong people?",
+  "answer": "Tang, the first king of the Shang dynasty, took the wind-propelled flying carriage apart because he did not wish to show it to his people [1]. Ten years later, when an easterly wind arrived, the carriage was reassembled and the Jigong visitors were sent back to their country [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "37": {
+  "question": "Why is the term \"cosmogonic myth\" considered more accurate than \"creation myth\" in the context of Chinese mythology?",
+  "answer": "The term \"cosmogonic myth\" is considered more accurate because very few Chinese origin stories involve a creator deity or divine will [1]. Unlike monotheistic traditions that feature a single authorized creation narrative, Chinese classics record numerous and often contradictory origin myths that focus on the spontaneous self-generation of the cosmos rather than an external creator [1][4].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "38": {
+  "question": "What specific sequence of physical punishments comprised the \"Five Pains\" method used to execute Li Si?",
+  "answer": "The \"Five Pains\" method involved cutting off the victim's nose, cutting off a hand and a foot, castrating the victim, and finally cutting the body in half at the waist [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "39": {
+  "question": "Which specific places in modern China use the Hétú as part of their proper names?",
+  "answer": "Certain places in modern China that use Hétú (河图) as part of their proper names include 河图镇 in Yuexi County, 河图镇 in Baoshan City, and 河图乡 [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "40": {
+  "question": "In which seminal work does folklorist Stith Thompson note that the tale of a boy predestined to marry a princess appears in the literary history of India?",
+  "answer": "Folklorist Stith Thompson notes this in his seminal work *The Folktale* [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "41": {
+  "question": "Why did the gods Indra, Agni, Varuna, and Yama decide to attend Damayanti's svayamvara?",
+  "answer": "The gods decided to attend the svayamvara because the sage Narada explained to Indra that the princes were preoccupied with the event, which was why no kings were dying in battle. Intrigued by this information, Indra, Agni, Varuna, and Yama chose to attend the ceremony [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "42": {
+  "question": "What additional moral did Latin sources emphasize regarding the dog being taken in by its own reflection?",
+  "answer": "Latin sources emphasized the additional moral of not being taken in by appearances, noting that the dog was deceived by its own reflection (simulacrum) in the water [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "43": {
+  "question": "What materials are used to create the traditional wall paintings in Punjab, and what occasions are they typically drawn to celebrate?",
+  "answer": "Traditional wall paintings in Punjab are created using materials such as mud, cowdung plaster, white rice paste, ochre, and various clays (white, yellow, red, and black) [1][2][3]. These artworks are typically drawn to celebrate special occasions including festivals like Diwali, Dussehra, Sanjhi, and Hoi, as well as happy family events such as the birth of a child [1][3].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "44": {
+  "question": "What is the general moral teaching of the fable \"The Ass and the Pig\"?",
+  "answer": "The general teaching of \"The Ass and the Pig\" is that the easy life and seeming good fortune of others often conceal a threat to their welfare [1]. Specifically, the fable illustrates that those who seek luxuries or a life of ease may face early and violent death, whereas those who endure honest labor often survive [2][4].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "45": {
+  "question": "What was the punishment ordered by Rani Pingalah for Pattinathar, and what happened when it was carried out?",
+  "answer": "Rani Pingalah ordered that Pattinathar be punished by sitting in the 'kalu maram,' a tree sharpened at the top and coated in oil, which was intended to split a person into two pieces [2]. When the punishment was carried out, the tree began to burn, but nothing happened to Pattinathar [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "46": {
+  "question": "Who was the younger brother of the King of Ujjain who abdicated in his favor?",
+  "answer": "The younger brother of King Bhartrhari, to whom he abdicated the throne, was Vikramaditya [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "47": {
+  "question": "How many wars are narrated in total in the poem about the brothers Alha and Udal?",
+  "answer": "The poem narrates the details of fifty-two wars in total [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "48": {
+  "question": "In the La Fontaine version of the fable, what specific action does the bear take to remove a fly that results in the gardener's death?",
+  "answer": "In the La Fontaine version, the bear seizes a paving stone to crush a persistent fly that is bothering the sleeping gardener, but the blow kills the gardener as well [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "49": {
+  "question": "Who were the scholars that refuted the idea that the legend of Barlaam and Josaphat originated from Byzantine Greek?",
+  "answer": "The scholars who refuted the idea that the legend originated from Byzantine Greek were F. C. Conybeare and Paul Peeters [1]. They demonstrated that the work actually had Georgian, Arabic, and Sanskrit origins [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "50": {
+  "question": "When was the Hungarian translation of the Golden Legend in the Kazincy codex created?",
+  "answer": "The Hungarian translation of the Golden Legend in the Kazincy codex was created between 1526 and 1541 [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "51": {
+  "question": "What is the moral of the parable of the blind men and an elephant?",
+  "answer": "The moral of the parable is that humans tend to claim absolute truth based on their limited, subjective experience while ignoring other people's equally valid but limited perspectives [1]. It illustrates that while one's subjective experience can be true, it is inherently limited because it fails to account for the totality of truth or other valid viewpoints [3]. The story serves as a practical example of ontologic reasoning, emphasizing the need for deeper understanding and respect for different perspectives on the same object [3].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "52": {
+  "question": "What arguments do George Ratcliffe Woodward and Harold Mattingly present to support the attribution of the anonymous Greek text to John of Damascus?",
+  "answer": "Woodward and Mattingly argue that the text's doctrine is remarkably similar to St. John's, often reaching \"verbal identity,\" and that it frequently quotes his favorite authors like St. Gregory of Nazianus and St. Basil [1]. They also note that the work's defense of images and denunciation of idolatry align with the Icon-venerators' position during the Iconoclastic Controversy, which they consider conclusive evidence for an eighth-century date [1]. Finally, they point out that St. John was often known as \"John the Monk,\" explaining why he was not specifically named in the earliest manuscripts [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "53": {
+  "question": "Who is the Hindu folk deity Baba Shivo regarded as an avatar of?",
+  "answer": "Baba Shivo is regarded as an avatar of Rudra Ansh [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "54": {
+  "question": "How many versions of the Panchatantra exist in languages around the world?",
+  "answer": "According to Olivelle, there are 200 versions of the Panchatantra text in more than 50 languages around the world [1]. This count includes a version in nearly every major language of India, in addition to the international translations [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "55": {
+  "question": "How do different versions of the blind men and the elephant parable resolve the conflict between the men?",
+  "answer": "In some versions, the conflict is resolved when the blind men stop arguing, start listening, and collaborate to \"see\" the full elephant [2]. In another variation, a sighted man enters the scene and describes the entire elephant, helping the men realize they were all partially correct and partially wrong [2]. However, in other versions, the men suspect each other of dishonesty and come to blows, with only a handful of versions where they actually discover the truth [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "56": {
+  "question": "What is the name of the rich trader who became smitten with Sohni after seeing her at her father's pottery shop in Gujrat?",
+  "answer": "The rich trader who became smitten with Sohni is named Izzat Baig [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "57": {
+  "question": "What mantra is used to invoke the yakshinis described in the Uddamareshvara Tantra?",
+  "answer": "The mantra used to invoke the yakshinis described in the Uddamareshvara Tantra is \"Om hreem shreem nityadravae mada (yakshini name) shreem hreem\" [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "58": {
+  "question": "How did the infant bodhisattva Temiya convince the charioteer to release him from the chariot destined for the charnel ground?",
+  "answer": "Temiya convinced the charioteer by lifting the chariot high in the air to demonstrate that he was not crippled or mute, as he had pretended to be. He then spoke to the charioteer, Sunanda, showing his voice and limbs, and warned him that burying him in the wood would incur great guilt [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "59": {
+  "question": "Who is the author of the 2009 and 2006 editions of the Greek text of the Historia animae utilis de Barlaam et Ioasaph?",
+  "answer": "The author of the 2009 and 2006 editions of the Greek text is Robert Volk [1][2]. These works were published as Volume 6 of the works of John the Damascene by the monks of the Abbey of Scheyern [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "60": {
+  "question": "What types of offerings or shrines were made to deter buso from attacking humans?",
+  "answer": "The provided text states that shrines and offerings were made to the buso in an attempt to deter them from attacking humans, but it does not specify the exact types of items used for these offerings [1]. While other spirits in the context, such as the Nuno sa punso, are associated with specific offerings like fruits, food, or drink [3], no such details are given for the buso.",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "61": {
+  "question": "What is the specific term for a séance in which a shaman acts as a medium to communicate with dead ancestors and spirits?",
+  "answer": "The specific term for this séance is *pag-anito* [2]. During this ritual, a shaman, known as a *babaylan* or *katalonan*, acts as a medium to communicate directly with dead ancestors and spirits [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "62": {
+  "question": "What happens to the left-hand soul of a Bagobo person after death?",
+  "answer": "Upon death, the left-hand soul of a Bagobo person transforms into a busaw, which is a monster that digs up dead bodies [1]. This contrasts with the right-hand soul, which journeys to the afterlife [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "63": {
+  "question": "How many pages does the Tagalog-English Dictionary by Leo James English contain?",
+  "answer": "The Tagalog-English Dictionary by Leo James English contains 1,583 pages [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "64": {
+  "question": "What are some examples of reportedly haunted locations in the Philippines?",
+  "answer": "Based on the provided context, Balete Drive is a specific example of a reportedly haunted location in the Philippines [4]. The legends associated with this street involve a \"kaperosa\" (white lady) ghost who haunts taxi drivers [4]. While the text mentions a \"List of reportedly haunted locations in the Philippines\" as a related topic, it does not provide other specific named locations in the available passages [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "65": {
+  "question": "How did the Moon escape from the Minokawa according to the basic legend?",
+  "answer": "According to the basic legend, the Moon escaped when the Minokawa opened its mouth to investigate the loud screaming and noise made by the frightened people [2]. As soon as the bird's mouth opened, the Moon sprang out and ran away [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "66": {
+  "question": "How many souls do the Ifugao and the Hanunoo Mangyan believe a person possesses, respectively?",
+  "answer": "The Ifugao believe a person has two souls, while the Hanunoo Mangyan believe an individual possesses between two and five souls [1][2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "67": {
+  "question": "What is the traditional omen associated with a visit from the Kumakatok?",
+  "answer": "A visit from the Kumakatok is traditionally an omen of death, specifically indicating that either the eldest member of the household or a person who is ill will die [1]. This bad omen affects the residents regardless of whether they open the door to the figures [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "68": {
+  "question": "What is the etymological origin of the name Bakunawa and what does it literally mean?",
+  "answer": "The name Bakunawa is believed to be a compound word meaning \"bent snake.\" It derives from the Proto-Western-Malayo-Polynesian roots *ba(ŋ)kuq, meaning \"bent\" or \"curved,\" and *sawa, meaning \"large snake\" or \"python\" [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "69": {
+  "question": "How was the Spanish soldier's claim of being transported from the Philippines to Mexico City in 1593 eventually verified?",
+  "answer": "The soldier's claim was verified months after his arrest when a galleon from the Philippines arrived in Mexico with news of Governor Gómez Pérez Dasmariñas' assassination. One of the ship's passengers recognized the imprisoned soldier and confirmed having seen him in the Philippines a day after the governor's death, which corroborated the soldier's account of the event [1][2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "70": {
+  "question": "What are some traditional methods believed to counteract the tricks played by tikbalangs on travelers?",
+  "answer": "The provided context does not contain information about traditional methods to counteract the tricks played by tikbalangs on travelers. The passages describe the tikbalang's appearance, its historical likening to satyrs or goblins, and methods for taming it (such as leaping onto it and tying it with a cord, or plucking three golden hairs from its mane) [2][3]. However, no specific countermeasures for its deceptive tricks are mentioned.",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "71": {
+  "question": "How did the CIA utilize the aswang legend during the Huk Rebellion in the early 1950s?",
+  "answer": "During the Huk Rebellion in the early 1950s, the CIA spread rumors that evil men would be attacked by an aswang [1]. To reinforce these rumors as part of psychological operations, they punctured holes in the corpse of a Huk and drained all the blood from the body before leaving it on a road to be discovered [1]. Colonel Edward Lansdale was likely among those who encouraged and spread word of this practice [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "72": {
+  "question": "What was the specific method of attack used by the sixth creature, known as the silagan, against people wearing white clothing?",
+  "answer": "The silagan attacked by tearing out the liver of anyone clothed in white and eating it, which caused the victim's death [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "73": {
+  "question": "How is the soul of the dead guided in Waray belief, and where do the souls eventually lead?",
+  "answer": "In Waray belief, the soul of the dead is guided by the god Badadum, who gathers the souls of the newly dead to meet their relatives and friends at the mouth of a river in the lowerworld [1]. Old stories state that these souls eventually lead to a sacred cave in the interior of Samar island [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "74": {
+  "question": "What are the two categories of dwende based on their color, and what is the specific term for those that live in anthills and termite mounds?",
+  "answer": "Based on the provided text, dwende are categorized as either good or evil depending on their color, which is white or black, respectively [1]. The specific term for those that live in anthills and termite mounds is *nunò sa punsó* (Tagalog for \"old man of the mound\") [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "75": {
+  "question": "What two factors are cited as the possible sources of inspiration for aswang legends from a social anthropology perspective?",
+  "answer": "The provided context passages do not contain information regarding specific social anthropology perspectives or the two factors cited as possible sources of inspiration for aswang legends. The texts focus on historical origins, etymology, regional beliefs, and physical descriptions [2][4][5].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "76": {
+  "question": "What is the origin of the name for the principal setting in the 2026 DreamWorks Animation film Forgotten Island?",
+  "answer": "The principal setting of the 2026 DreamWorks Animation film *Forgotten Island* is named Nakali, which is a clipping of the Filipino word *nakalimutan*, meaning \"forgotten\" [1]. This name evokes themes of obscurity, memory, and mystery that reflect the film's narrative foundation [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "77": {
+  "question": "What happens to a Tagbanwa soul if it dies seven times in the underworld and its subsequent insect reincarnation is killed?",
+  "answer": "If a Tagbanwa soul dies seven times in the underworld, it is reincarnated into an insect such as a fly, dragonfly, or dung beetle [1]. If this insect reincarnation is killed, the soul disappears into oblivion [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "78": {
+  "question": "What physical characteristics and behaviors distinguish witch aswangs from ordinary witches in Philippine folklore?",
+  "answer": "Witch aswangs are distinguished by extreme vindictiveness, using curses that cause objects like rice, bones, or insects to emerge from victims' bodily orifices [1]. Physically, they possess eyes that reflect images upside down and have elongated irises [1]. Unlike ordinary witches, who are simply avoided and feared, witch aswangs are actively shunned and hated, and if captured, they are executed immediately without question [1]. Additionally, a woman can only become a witch aswang if she already possesses specific traits associated with aswangs, and her powers intensify upon transformation [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "79": {
+  "question": "What is the literal translation of the derogatory Tagalog expression \"Tigbalang ca mandin!\"?",
+  "answer": "The literal translation of the derogatory Tagalog expression \"Tigbalang ca mandin!\" is \"You are a wild beast!\" [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "80": {
+  "question": "According to the legend, why was the Brebes River renamed the Pamali River?",
+  "answer": "According to the legend, the Brebes River was renamed the Pamali River to serve as a reminder that it is \"pamali\" (taboo or forbidden) for the two brothers, Ciung Wanara and Hariang Banga, to fight each other [2]. The king declared the river the boundary between their respective kingdoms, Galuh and Java, to enforce this prohibition against fratricidal conflict [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "81": {
+  "question": "How does the youngest sister summon the magical goldfish to appear?",
+  "answer": "To summon the magical goldfish Leungli, the youngest sister dips the tip of her hair into the river and sings a pantun [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "82": {
+  "question": "What does the shaking or fading of a candle flame indicate to the assistant guarding it during a Babi Ngepet ritual?",
+  "answer": "According to the text, if the candle flame is shaking, fading, or almost out, it indicates that the Babi Ngepet is in danger, has been caught in the act by villagers, or has been turned back into their human form [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "83": {
+  "question": "How is Dewi Sri typically depicted in Javanese iconography?",
+  "answer": "In Javanese iconography, Dewi Sri is depicted as a youthful, beautiful, and curvaceous woman wearing green, white, or golden yellow clothes with regal jewelry [1]. She is typically shown holding a rice plant with full grains in one hand, which serves as her distinctive attribute [1][2]. High Javanese culture, reflecting wayang aesthetics, dictates that she has a white face, thin downward-cast eyes, and a serene expression [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "84": {
+  "question": "How did the creation of the Batu Malin Kundang statue impact the popularity of Air Manis Beach?",
+  "answer": "The creation of the Batu Malin Kundang statue, an artificial artifact depicting the kneeling figure, helped popularize Air Manis Beach by making it a well-known tourist attraction in Padang [1]. This association with the famous folktale also led to greater recognition for the traditional legend itself [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "85": {
+  "question": "What did Timun Mas throw from her last bag to defeat the giant?",
+  "answer": "Timun Mas threw terasi (shrimp paste) from her last bag, which transformed into a sea of boiling mud that drowned the giant [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "86": {
+  "question": "When was the first written reference to the Sangkuriang legend recorded?",
+  "answer": "The first written reference to the Sangkuriang legend appeared in the Bujangga Manik manuscript, which was written on palm leaves at the end of the 15th century or the early 16th century AD [1]. This manuscript was later taken to England and placed in the Bodleian Library, Oxford, in 1627 [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "87": {
+  "question": "What happened to the Giant King Dewata Cengkar after he was defeated by Aji Saka?",
+  "answer": "After being defeated by Aji Saka, the Giant King Dewata Cengkar was pushed into the Javan Southern Sea (Indian Ocean) [1]. He did not die but instead transformed into a Bajul Putih, which is a White Crocodile [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "88": {
+  "question": "What does the presence of 14th-century Thai and Vietnamese glazed ceramics at remote highland sites indicate about the structure of regional and extra-regional value chains?",
+  "answer": "The presence of 14th-century Thai and Vietnamese glazed ceramics at remote highland sites indicates that regional and extra-regional value chains included not only coastal port sites but also inland highland and hinterland areas and peoples [1]. This distribution demonstrates that trade networks extended beyond immediate coastal hubs to incorporate remote interior communities into broader exchange systems [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "89": {
+  "question": "What is the origin of the Batu Malin Kundang rock formation and where is it located?",
+  "answer": "The Batu Malin Kundang rock formation is an artificial artifact created in the 1980s by Dasril Bayras and Ibenzani Usman, inspired by the folktale of Malin Kundang [3]. It is located on Air Manis (Sweet Water) Beach near Padang, Indonesia [3]. The stone depicts Malin Kundang in a kneeling position, begging for forgiveness [3].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "90": {
+  "question": "What are some traditional Indonesian art forms and performances inspired by the Panji tales?",
+  "answer": "The Panji tales have inspired various Indonesian traditional art forms, including poems, sculpture, painting, and dance-drama performances [1]. Specifically, they are the basis for wayang (shadow puppetry), particularly the wayang gedhog genre in East and Central Java [1]. The stories also inspire traditional dances such as the topeng (mask) dances of Cirebon, Central Java, and Malang, as well as the gambuh dance-drama in Bali [1]. Additionally, the tales are performed in other puppetry styles like wayang klitik, wayang golek, and wayang beber, as well as in masked dance-pantomime known as wayang topeng [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "91": {
+  "question": "Which 1995 science-fiction film features Jalaluddin Hassan portraying a historical warrior who receives a famous quote from a scientist from the future?",
+  "answer": "The 1995 science-fiction film is *XX Ray 2*, in which Jalaluddin Hassan portrays the historical warrior Hang Tuah [1]. In the film, Hang Tuah receives his famous quote, \"Takkan Melayu Hilang Di Dunia,\" from one of the modern scientists who were sent back to the 15th century [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "92": {
+  "question": "What are the celestial musicians in Buddhist mythology known for playing, and how are they depicted in ancient Indian art?",
+  "answer": "The provided context passages do not contain information about celestial musicians in Buddhist mythology, what they are known for playing, or how they are depicted in ancient Indian art. The texts focus on Yakshinis, Yakshas, and Jataka tales, but do not mention celestial musicians (such as Gandharvas or Apsaras in a musical context).",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "93": {
+  "question": "What punishment does the prime minister impose on Damarwulan after his sons attempt to kill him?",
+  "answer": "After Damarwulan overcomes the prime minister's sons, who had tried to kill him, the prime minister orders that Damarwulan be executed. However, due to Anjasmara's plea, the prime minister spares his life and instead imprisons Damarwulan and Anjasmara [1].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "94": {
+  "question": "What is the true identity of Kleting Kuning in the story of Prince Kusumayuda?",
+  "answer": "In the story, Kleting Kuning is actually the missing princess of the Janggala kingdom, later known as Dewi Candrakirana [1]. She was an adopted foster daughter living with a widow and her biological sisters [1]. Her true identity is central to her betrothal to Prince Kusumayuda, whom she remains devoted to despite her stepmother's attempts to disguise her beauty [1][2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "95": {
+  "question": "What is the plot of the Indonesian folktale \"King Iguana\"?",
+  "answer": "The folktale \"King Iguana\" centers on a marriage between a human girl and a suitor who appears in animal form but can transform into a human [1]. After the marriage, the wife's envious sisters attempt to murder her and take her place as the animal suitor's wife [1]. In one specific variant, the sisters push the princess into the sea, but she survives with the help of magical items given by her husband, who eventually rescues her and punishes the sisters [2].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "96": {
+  "question": "What is the definition of a tale type in folklore studies?",
+  "answer": "The provided context passages do not contain a general definition of a \"tale type\" in folklore studies. They only reference specific tale types (such as ATU 707, ATU 459, or Type 32) and the indices used to classify them, such as the Aarne-Thompson Index or the work of Stith Thompson and Warren Roberts [2][3][4][5].",
+  "judge_reply": "1",
+  "score": 1
+ },
+ "97": {
+  "question": "How did the god Batara Narada save Dewi Sekartaji from the King of Antah Berantah?",
+  "error": "fetch failed",
+  "score": null
+ },
+ "98": {
+  "question": "What is the name of the multi-use stadium located in Bandung?",
+  "error": "fetch failed",
+  "score": null
+ },
+ "99": {
+  "question": "What happened when Timun Mas spread cucumber seeds behind her while fleeing from the giant?",
+  "error": "fetch failed",
+  "score": null
+ }
+}
